@@ -1,0 +1,123 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu May  7 13:08:37 2020
+# Process ID: 9300
+# Current directory: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9284 C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\LUD_v3_5_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.xpr
+# Log file: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/vivado.log
+# Journal file: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.xpr
+open_bd_design {C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/design_CTRL.bd}
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/design_BRAM_B.bd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/design_BRAM_B.bd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_B_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_B_wrapper.vhd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_B_wrapper.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/design_BRAM_C.bd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/design_BRAM_C.bd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_C_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_C_wrapper.vhd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_C_wrapper.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/design_BRAM_D.bd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/design_BRAM_D.bd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_D_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_D_wrapper.vhd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_D_wrapper.vhd
+open_bd_design {C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/design_BRAM_A.bd}
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/design_BRAM_A.bd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/design_BRAM_A.bd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_A_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_A_wrapper.vhd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_A_wrapper.vhd
+close_bd_design [get_bd_designs design_CTRL]
+create_bd_design "design_BRAM_A"
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:blk_mem_gen:8.4 blk_mem_gen_0
+endgroup
+set_property -dict [list CONFIG.Memory_Type {True_Dual_Port_RAM} CONFIG.Enable_32bit_Address {false} CONFIG.Use_Byte_Write_Enable {false} CONFIG.Byte_Size {9} CONFIG.Write_Width_A {64} CONFIG.Write_Depth_A {2048} CONFIG.Read_Width_A {64} CONFIG.Write_Width_B {64} CONFIG.Read_Width_B {64} CONFIG.Enable_B {Use_ENB_Pin} CONFIG.Register_PortA_Output_of_Memory_Primitives {false} CONFIG.Register_PortB_Output_of_Memory_Primitives {false} CONFIG.Use_RSTA_Pin {false} CONFIG.Port_B_Clock {100} CONFIG.Port_B_Write_Rate {50} CONFIG.Port_B_Enable_Rate {100} CONFIG.use_bram_block {Stand_Alone} CONFIG.EN_SAFETY_CKT {false}] [get_bd_cells blk_mem_gen_0]
+startgroup
+make_bd_pins_external  [get_bd_cells blk_mem_gen_0]
+make_bd_intf_pins_external  [get_bd_cells blk_mem_gen_0]
+endgroup
+save_bd_design
+make_wrapper -files [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/design_BRAM_A.bd] -top
+import_files -force -norecurse C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/hdl/design_BRAM_A_wrapper.vhd
+open_bd_design {C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/design_DIV.bd}
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/design_DIV.bd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/design_DIV.bd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_DIV_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_DIV_wrapper.vhd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_DIV_wrapper.vhd
+create_bd_design "design_DIV"
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:floating_point:7.1 floating_point_0
+endgroup
+set_property -dict [list CONFIG.A_Precision_Type.VALUE_SRC USER] [get_bd_cells floating_point_0]
+set_property -dict [list CONFIG.Operation_Type {Divide} CONFIG.A_Precision_Type {Double} CONFIG.Axi_Optimize_Goal {Performance} CONFIG.Maximum_Latency {false} CONFIG.C_Latency {31} CONFIG.Result_Precision_Type {Double} CONFIG.C_Result_Exponent_Width {11} CONFIG.C_Result_Fraction_Width {53} CONFIG.C_Accum_Msb {32} CONFIG.C_Accum_Lsb {-31} CONFIG.C_Accum_Input_Msb {32} CONFIG.C_Mult_Usage {No_Usage} CONFIG.C_Rate {1}] [get_bd_cells floating_point_0]
+startgroup
+make_bd_pins_external  [get_bd_cells floating_point_0]
+make_bd_intf_pins_external  [get_bd_cells floating_point_0]
+endgroup
+save_bd_design
+make_wrapper -files [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/design_DIV.bd] -top
+import_files -force -norecurse C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/hdl/design_DIV_wrapper.vhd
+open_bd_design {C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/design_MAC.bd}
+current_bd_design [get_bd_designs design_BRAM_A]
+close_bd_design [get_bd_designs design_BRAM_A]
+close_bd_design [get_bd_designs design_DIV]
+close_bd_design [get_bd_designs design_MAC]
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/design_MAC.bd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/design_MAC.bd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_MAC_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_MAC_wrapper.vhd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_MAC_wrapper.vhd
+create_bd_design "design_MAC"
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:floating_point:7.1 floating_point_0
+endgroup
+set_property -dict [list CONFIG.A_Precision_Type.VALUE_SRC USER] [get_bd_cells floating_point_0]
+set_property -dict [list CONFIG.Operation_Type {FMA} CONFIG.A_Precision_Type {Double} CONFIG.C_Mult_Usage {Full_Usage} CONFIG.Axi_Optimize_Goal {Performance} CONFIG.Maximum_Latency {false} CONFIG.C_Latency {20} CONFIG.Result_Precision_Type {Double} CONFIG.C_Result_Exponent_Width {11} CONFIG.C_Result_Fraction_Width {53} CONFIG.C_Accum_Msb {32} CONFIG.C_Accum_Lsb {-31} CONFIG.C_Accum_Input_Msb {32} CONFIG.C_Rate {1}] [get_bd_cells floating_point_0]
+startgroup
+make_bd_pins_external  [get_bd_cells floating_point_0]
+make_bd_intf_pins_external  [get_bd_cells floating_point_0]
+endgroup
+save_bd_design
+make_wrapper -files [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/design_MAC.bd] -top
+import_files -force -norecurse C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/hdl/design_MAC_wrapper.vhd
+open_bd_design {C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_5_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/design_CTRL.bd}
+current_bd_design [get_bd_designs design_MAC]
+close_bd_design [get_bd_designs design_MAC]
+close_bd_design [get_bd_designs design_CTRL]
+open_project C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.xpr
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+close_project
+open_project C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.xpr
+launch_simulation
+source simTester_verilog.tcl
+close_sim
+close_project
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1

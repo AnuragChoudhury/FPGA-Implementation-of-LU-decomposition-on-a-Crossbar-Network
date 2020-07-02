@@ -1,0 +1,168 @@
+15:58:30 INFO  : Registering command handlers for SDK TCF services
+15:58:31 INFO  : Launching XSCT server: xsct -n -interactive /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/temp_xsdb_launch_script.tcl
+15:58:32 INFO  : XSCT server has started successfully.
+15:58:32 INFO  : Successfully done setting XSCT server connection channel  
+15:58:32 INFO  : Successfully done setting SDK workspace  
+15:58:32 INFO  : Processing command line option -hwspec /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+16:38:24 INFO  : Registering command handlers for SDK TCF services
+16:38:25 INFO  : Launching XSCT server: xsct -n -interactive /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/temp_xsdb_launch_script.tcl
+16:38:26 INFO  : XSCT server has started successfully.
+16:38:26 INFO  : Successfully done setting XSCT server connection channel  
+16:38:26 INFO  : Successfully done setting SDK workspace  
+16:38:26 INFO  : Processing command line option -hwspec /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+16:38:27 INFO  : Checking for hwspec changes in the project LUDH_TEST_WRAPPER_hw_platform_0.
+23:09:08 INFO  : Registering command handlers for SDK TCF services
+23:09:11 INFO  : Launching XSCT server: xsct -n -interactive /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/temp_xsdb_launch_script.tcl
+23:09:12 INFO  : XSCT server has started successfully.
+23:09:12 INFO  : Successfully done setting XSCT server connection channel  
+23:09:12 INFO  : Successfully done setting SDK workspace  
+23:09:12 INFO  : Processing command line option -hwspec /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+23:09:21 INFO  : Checking for hwspec changes in the project LUDH_TEST_WRAPPER_hw_platform_0.
+19:37:38 INFO  : Registering command handlers for SDK TCF services
+19:37:39 INFO  : Launching XSCT server: xsct -n -interactive /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/temp_xsdb_launch_script.tcl
+19:37:40 INFO  : XSCT server has started successfully.
+19:37:40 INFO  : Successfully done setting XSCT server connection channel  
+19:37:40 INFO  : Successfully done setting SDK workspace  
+19:37:40 INFO  : Processing command line option -hwspec /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+19:37:40 INFO  : Checking for hwspec changes in the project LUDH_TEST_WRAPPER_hw_platform_0.
+19:37:41 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1569052174000,  Project:1568972211000
+19:37:41 INFO  : The hardware specification for project 'LUDH_TEST_WRAPPER_hw_platform_0' is different from /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+19:37:41 INFO  : Copied contents of /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf into /LUDH_TEST_WRAPPER_hw_platform_0/system.hdf.
+19:37:44 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:37:45 INFO  : 
+19:37:46 INFO  : Updating hardware inferred compiler options for LUDH.
+19:37:47 INFO  : Clearing existing target manager status.
+20:43:17 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1569078654000,  Project:1569052174000
+20:43:17 INFO  : Project LUDH_TEST_WRAPPER_hw_platform_0's source hardware specification located at /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+20:43:24 INFO  : Copied contents of /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf into /LUDH_TEST_WRAPPER_hw_platform_0/system.hdf.
+20:43:26 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+20:43:27 INFO  : 
+20:43:28 INFO  : Updating hardware inferred compiler options for LUDH.
+20:43:28 INFO  : Clearing existing target manager status.
+20:43:28 INFO  : Closing and re-opening the MSS file of ther project LUDH_bsp
+20:43:37 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+20:44:03 INFO  : Registering command handlers for SDK TCF services
+20:44:04 INFO  : Launching XSCT server: xsct -n -interactive /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/temp_xsdb_launch_script.tcl
+20:44:05 INFO  : XSCT server has started successfully.
+20:44:05 INFO  : Successfully done setting XSCT server connection channel  
+20:44:05 INFO  : Successfully done setting SDK workspace  
+20:44:05 INFO  : Processing command line option -hwspec /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+20:44:05 INFO  : Checking for hwspec changes in the project LUDH_TEST_WRAPPER_hw_platform_0.
+22:45:35 INFO  : Registering command handlers for SDK TCF services
+22:45:36 INFO  : Launching XSCT server: xsct -n -interactive /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/temp_xsdb_launch_script.tcl
+22:45:38 INFO  : XSCT server has started successfully.
+22:45:38 INFO  : Processing command line option -hwspec /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+22:45:38 INFO  : Successfully done setting XSCT server connection channel  
+22:45:39 INFO  : Successfully done setting SDK workspace  
+22:45:39 INFO  : Checking for hwspec changes in the project LUDH_TEST_WRAPPER_hw_platform_0.
+23:01:35 INFO  : Registering command handlers for SDK TCF services
+23:01:35 INFO  : Launching XSCT server: xsct -n -interactive /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/temp_xsdb_launch_script.tcl
+23:01:36 INFO  : XSCT server has started successfully.
+23:01:36 INFO  : Successfully done setting XSCT server connection channel  
+23:01:36 INFO  : Successfully done setting SDK workspace  
+23:01:36 INFO  : Processing command line option -hwspec /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+23:01:37 INFO  : Checking for hwspec changes in the project LUDH_TEST_WRAPPER_hw_platform_0.
+23:18:32 INFO  : Registering command handlers for SDK TCF services
+23:18:32 INFO  : Launching XSCT server: xsct -n -interactive /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/temp_xsdb_launch_script.tcl
+23:18:33 INFO  : XSCT server has started successfully.
+23:18:34 INFO  : Successfully done setting XSCT server connection channel  
+23:18:34 INFO  : Successfully done setting SDK workspace  
+23:18:34 INFO  : Processing command line option -hwspec /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+23:18:34 INFO  : Checking for hwspec changes in the project LUDH_TEST_WRAPPER_hw_platform_0.
+23:18:35 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1569087191000,  Project:1569078654000
+23:18:35 INFO  : The hardware specification for project 'LUDH_TEST_WRAPPER_hw_platform_0' is different from /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+23:18:35 INFO  : Copied contents of /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf into /LUDH_TEST_WRAPPER_hw_platform_0/system.hdf.
+23:18:37 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+23:18:38 INFO  : 
+23:18:39 INFO  : Updating hardware inferred compiler options for LUDH.
+23:18:40 INFO  : Clearing existing target manager status.
+23:30:57 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+13:37:21 INFO  : Registering command handlers for SDK TCF services
+13:37:22 INFO  : Launching XSCT server: xsct -n -interactive /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/temp_xsdb_launch_script.tcl
+13:37:23 INFO  : XSCT server has started successfully.
+13:37:23 INFO  : Successfully done setting XSCT server connection channel  
+13:37:23 INFO  : Successfully done setting SDK workspace  
+13:37:23 INFO  : Processing command line option -hwspec /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+13:37:23 INFO  : Checking for hwspec changes in the project LUDH_TEST_WRAPPER_hw_platform_0.
+13:37:24 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1569139627000,  Project:1569087191000
+13:37:24 INFO  : The hardware specification for project 'LUDH_TEST_WRAPPER_hw_platform_0' is different from /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+13:37:24 INFO  : Copied contents of /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf into /LUDH_TEST_WRAPPER_hw_platform_0/system.hdf.
+13:37:27 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+13:37:28 INFO  : 
+13:37:29 INFO  : Updating hardware inferred compiler options for LUDH.
+13:37:29 INFO  : Clearing existing target manager status.
+13:54:05 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+15:06:22 INFO  : Registering command handlers for SDK TCF services
+15:06:23 INFO  : Launching XSCT server: xsct -n -interactive /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/temp_xsdb_launch_script.tcl
+15:06:24 INFO  : XSCT server has started successfully.
+15:06:24 INFO  : Successfully done setting XSCT server connection channel  
+15:06:24 INFO  : Successfully done setting SDK workspace  
+15:06:24 INFO  : Processing command line option -hwspec /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+15:06:24 INFO  : Checking for hwspec changes in the project LUDH_TEST_WRAPPER_hw_platform_0.
+15:06:25 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1569142031000,  Project:1569139627000
+15:06:25 INFO  : The hardware specification for project 'LUDH_TEST_WRAPPER_hw_platform_0' is different from /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+15:06:25 INFO  : Copied contents of /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf into /LUDH_TEST_WRAPPER_hw_platform_0/system.hdf.
+15:06:27 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+15:06:29 INFO  : 
+15:06:30 INFO  : Updating hardware inferred compiler options for LUDH.
+15:06:30 INFO  : Clearing existing target manager status.
+15:19:44 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+17:47:16 INFO  : Registering command handlers for SDK TCF services
+17:47:17 INFO  : Launching XSCT server: xsct -n -interactive /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/temp_xsdb_launch_script.tcl
+17:47:18 INFO  : XSCT server has started successfully.
+17:47:18 INFO  : Successfully done setting XSCT server connection channel  
+17:47:18 INFO  : Successfully done setting SDK workspace  
+17:47:18 INFO  : Processing command line option -hwspec /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+17:47:18 INFO  : Checking for hwspec changes in the project LUDH_TEST_WRAPPER_hw_platform_0.
+17:47:19 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1569147277000,  Project:1569142031000
+17:47:19 INFO  : The hardware specification for project 'LUDH_TEST_WRAPPER_hw_platform_0' is different from /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+17:47:19 INFO  : Copied contents of /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf into /LUDH_TEST_WRAPPER_hw_platform_0/system.hdf.
+17:47:21 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+17:47:22 INFO  : 
+17:47:30 INFO  : Updating hardware inferred compiler options for LUDH.
+17:47:30 INFO  : Clearing existing target manager status.
+19:14:20 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1569159695000,  Project:1569147277000
+19:14:20 INFO  : Project LUDH_TEST_WRAPPER_hw_platform_0's source hardware specification located at /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf is now different from the local copy.
+		 The local copy will be replaced with the source specification and your workspace will be updated.
+19:14:28 INFO  : Copied contents of /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf into /LUDH_TEST_WRAPPER_hw_platform_0/system.hdf.
+19:14:31 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+19:14:32 INFO  : 
+19:14:33 INFO  : Updating hardware inferred compiler options for LUDH.
+19:14:33 INFO  : Clearing existing target manager status.
+19:14:41 ERROR : Unexpected error while parsing XMD response ￿: com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: invalid number or unquoted string near 
+19:15:01 INFO  : Registering command handlers for SDK TCF services
+19:15:02 INFO  : Launching XSCT server: xsct -n -interactive /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/temp_xsdb_launch_script.tcl
+19:15:03 INFO  : XSCT server has started successfully.
+19:15:03 INFO  : Successfully done setting XSCT server connection channel  
+19:15:03 INFO  : Successfully done setting SDK workspace  
+19:15:03 INFO  : Processing command line option -hwspec /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+19:15:03 INFO  : Checking for hwspec changes in the project LUDH_TEST_WRAPPER_hw_platform_0.
+12:58:43 INFO  : Registering command handlers for SDK TCF services
+12:58:45 INFO  : Launching XSCT server: xsct -n -interactive /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/temp_xsdb_launch_script.tcl
+12:58:46 INFO  : XSCT server has started successfully.
+12:58:46 INFO  : Successfully done setting XSCT server connection channel  
+12:58:46 INFO  : Successfully done setting SDK workspace  
+12:58:46 INFO  : Processing command line option -hwspec /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+12:58:50 INFO  : Checking for hwspec changes in the project LUDH_TEST_WRAPPER_hw_platform_0.
+12:58:50 INFO  : SDK has detected change in the last modified timestamps for source hardware specification file Source:1569206192000,  Project:1569159695000
+12:58:50 INFO  : The hardware specification for project 'LUDH_TEST_WRAPPER_hw_platform_0' is different from /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+12:58:50 INFO  : Copied contents of /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf into /LUDH_TEST_WRAPPER_hw_platform_0/system.hdf.
+12:58:52 INFO  : Synchronizing projects in the workspace with the hardware platform specification changes.
+12:58:54 INFO  : 
+12:58:55 INFO  : Updating hardware inferred compiler options for LUDH.
+12:58:55 INFO  : Clearing existing target manager status.
+19:40:13 INFO  : Registering command handlers for SDK TCF services
+19:40:14 INFO  : Launching XSCT server: xsct -n -interactive /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/temp_xsdb_launch_script.tcl
+19:40:15 INFO  : XSCT server has started successfully.
+19:40:15 INFO  : Successfully done setting XSCT server connection channel  
+19:40:15 INFO  : Successfully done setting SDK workspace  
+19:40:15 INFO  : Processing command line option -hwspec /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+19:40:16 INFO  : Checking for hwspec changes in the project LUDH_TEST_WRAPPER_hw_platform_0.
+10:43:37 INFO  : Registering command handlers for SDK TCF services
+10:43:38 INFO  : Launching XSCT server: xsct -n -interactive /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/temp_xsdb_launch_script.tcl
+10:43:39 INFO  : XSCT server has started successfully.
+10:43:39 INFO  : Successfully done setting XSCT server connection channel  
+10:43:39 INFO  : Successfully done setting SDK workspace  
+10:43:39 INFO  : Processing command line option -hwspec /home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.sdk/LUDH_TEST_WRAPPER.hdf.
+10:43:39 INFO  : Checking for hwspec changes in the project LUDH_TEST_WRAPPER_hw_platform_0.

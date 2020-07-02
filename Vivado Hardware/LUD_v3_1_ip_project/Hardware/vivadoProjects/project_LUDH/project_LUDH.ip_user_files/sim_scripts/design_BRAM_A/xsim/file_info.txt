@@ -1,0 +1,3 @@
+design_BRAM_A_blk_mem_gen_0_1.v,verilog,xil_defaultlib,../../../bd/design_BRAM_A/ip/design_BRAM_A_blk_mem_gen_0_1/sim/design_BRAM_A_blk_mem_gen_0_1.v,
+design_BRAM_A.vhd,vhdl,xil_defaultlib,../../../bd/design_BRAM_A/sim/design_BRAM_A.vhd,
+glbl.v,Verilog,xil_defaultlib,glbl.v

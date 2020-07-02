@@ -1,0 +1,9 @@
+{
+	"version": "1.0",
+	"modules": {
+		"design_BRAM_D": {
+			"proto_instances": {
+			}
+		}
+	}
+}

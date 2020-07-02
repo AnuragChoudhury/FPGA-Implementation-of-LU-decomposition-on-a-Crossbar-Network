@@ -1,0 +1,2 @@
+design_MAC_floating_point_0_0.vhd,vhdl,xil_defaultlib,../../../bd/design_MAC/ip/design_MAC_floating_point_0_0/sim/design_MAC_floating_point_0_0.vhd,
+design_MAC.vhd,vhdl,xil_defaultlib,../../../bd/design_MAC/sim/design_MAC.vhd,

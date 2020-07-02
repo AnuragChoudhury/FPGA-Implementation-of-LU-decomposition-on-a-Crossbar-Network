@@ -1,0 +1,2 @@
+design_DIV_floating_point_0_0.vhd,vhdl,xil_defaultlib,../../../bd/design_DIV/ip/design_DIV_floating_point_0_0/sim/design_DIV_floating_point_0_0.vhd,
+design_DIV.vhd,vhdl,xil_defaultlib,../../../bd/design_DIV/sim/design_DIV.vhd,

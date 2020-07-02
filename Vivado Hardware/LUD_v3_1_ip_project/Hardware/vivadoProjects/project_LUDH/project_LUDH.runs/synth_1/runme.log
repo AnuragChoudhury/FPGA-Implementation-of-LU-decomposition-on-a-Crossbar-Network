@@ -1,0 +1,898 @@
+
+*** Running vivado
+    with args -log myip_LUdecomposition_v2_v1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source myip_LUdecomposition_v2_v1_0.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source myip_LUdecomposition_v2_v1_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/lud_ip_v2'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+update_ip_catalog: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 277.879 ; gain = 23.105
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.cache/ip 
+Command: synth_design -top myip_LUdecomposition_v2_v1_0 -part xczu7ev-ffvc1156-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 2040 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 398.336 ; gain = 96.938
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'myip_LUdecomposition_v2_v1_0' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0.vhd:55]
+	Parameter ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH_DATA_BRAM bound to: 11 - type: integer 
+	Parameter CTRL_WIDTH bound to: 373 - type: integer 
+	Parameter AU_SEL_WIDTH bound to: 5 - type: integer 
+	Parameter BRAM_SEL_WIDTH bound to: 5 - type: integer 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH_DATA_BRAM bound to: 11 - type: integer 
+	Parameter CTRL_WIDTH bound to: 373 - type: integer 
+	Parameter AU_SEL_WIDTH bound to: 5 - type: integer 
+	Parameter BRAM_SEL_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-3491] module 'myip_LUdecomposition_v2_v1_0_S00_AXI' declared at 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:8' bound to instance 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst' of component 'myip_LUdecomposition_v2_v1_0_S00_AXI' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'myip_LUdecomposition_v2_v1_0_S00_AXI' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:96]
+	Parameter ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH_DATA_BRAM bound to: 11 - type: integer 
+	Parameter CTRL_WIDTH bound to: 373 - type: integer 
+	Parameter AU_SEL_WIDTH bound to: 5 - type: integer 
+	Parameter BRAM_SEL_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-226] default block is never used [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:502]
+INFO: [Synth 8-226] default block is never used [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:1748]
+INFO: [Synth 8-638] synthesizing module 'LUDH_TEST_WRAPPER' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/hdlFiles/hardwareTesterWrapper.vhd:86]
+	Parameter ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH_DATA_BRAM bound to: 11 - type: integer 
+	Parameter CTRL_WIDTH bound to: 373 - type: integer 
+	Parameter AU_SEL_WIDTH bound to: 5 - type: integer 
+	Parameter BRAM_SEL_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'LUDH_Tester' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/hdlFiles/hardwareTester.vhd:35]
+	Parameter ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter CTRL_WIDTH bound to: 373 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'myReg' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/hdlFiles/regs.vhd:16]
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'myReg' (1#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/hdlFiles/regs.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'design_CTRL_wrapper' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_CTRL_wrapper.vhd:25]
+INFO: [Synth 8-3491] module 'design_CTRL' declared at 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/synth/design_CTRL.vhd:14' bound to instance 'design_CTRL_i' of component 'design_CTRL' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_CTRL_wrapper.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'design_CTRL' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/synth/design_CTRL.vhd:29]
+INFO: [Synth 8-3491] module 'design_CTRL_blk_mem_gen_0_0' declared at 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/.Xil/Vivado-720-ANURAGCHOUDAFBF/realtime/design_CTRL_blk_mem_gen_0_0_stub.vhdl:5' bound to instance 'blk_mem_gen_0' of component 'design_CTRL_blk_mem_gen_0_0' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/synth/design_CTRL.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'design_CTRL_blk_mem_gen_0_0' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/.Xil/Vivado-720-ANURAGCHOUDAFBF/realtime/design_CTRL_blk_mem_gen_0_0_stub.vhdl:17]
+INFO: [Synth 8-256] done synthesizing module 'design_CTRL' (2#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/synth/design_CTRL.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'design_CTRL_wrapper' (3#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_CTRL_wrapper.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'bram_ZYNQ_decoder' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/bram_ZYNQ_decoder.vhd:43]
+	Parameter width bound to: 373 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'bram_ZYNQ_decoder' (4#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/bram_ZYNQ_decoder.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'LUDH_Tester' (5#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/hdlFiles/hardwareTester.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'LUDHardware' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/autoHdlFiles/LUDHardware.vhd:53]
+	Parameter ADDR_WIDTH bound to: 11 - type: integer 
+	Parameter CTRL_WIDTH bound to: 373 - type: integer 
+	Parameter AU_SEL_WIDTH bound to: 5 - type: integer 
+	Parameter BRAM_SEL_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'quadPortBRAM' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/hdlFiles/quadBRAM.vhd:53]
+	Parameter ADDR_WIDTH bound to: 11 - type: integer 
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'myReg__parameterized0' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/hdlFiles/regs.vhd:16]
+	Parameter DATA_WIDTH bound to: 45 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'myReg__parameterized0' (5#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/hdlFiles/regs.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'myReg__parameterized1' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/hdlFiles/regs.vhd:16]
+	Parameter DATA_WIDTH bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'myReg__parameterized1' (5#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/hdlFiles/regs.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'quadPortBRAM' (6#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/hdlFiles/quadBRAM.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'design_BRAM_A_wrapper' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_A_wrapper.vhd:31]
+INFO: [Synth 8-3491] module 'design_BRAM_A' declared at 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/synth/design_BRAM_A.vhd:14' bound to instance 'design_BRAM_A_i' of component 'design_BRAM_A' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_A_wrapper.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'design_BRAM_A' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/synth/design_BRAM_A.vhd:35]
+INFO: [Synth 8-3491] module 'design_BRAM_A_blk_mem_gen_0_1' declared at 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/.Xil/Vivado-720-ANURAGCHOUDAFBF/realtime/design_BRAM_A_blk_mem_gen_0_1_stub.vhdl:5' bound to instance 'blk_mem_gen_0' of component 'design_BRAM_A_blk_mem_gen_0_1' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/synth/design_BRAM_A.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'design_BRAM_A_blk_mem_gen_0_1' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/.Xil/Vivado-720-ANURAGCHOUDAFBF/realtime/design_BRAM_A_blk_mem_gen_0_1_stub.vhdl:23]
+INFO: [Synth 8-256] done synthesizing module 'design_BRAM_A' (7#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/synth/design_BRAM_A.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'design_BRAM_A_wrapper' (8#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_A_wrapper.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'bram_ZYNQ_mux' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/bram_ZYNQ_mux.vhd:54]
+	Parameter ADDR_WIDTH bound to: 11 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'bram_ZYNQ_mux' (9#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/bram_ZYNQ_mux.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'bram_ZYNQ_decoder__parameterized0' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/bram_ZYNQ_decoder.vhd:43]
+	Parameter width bound to: 32 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'bram_ZYNQ_decoder__parameterized0' (9#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/bram_ZYNQ_decoder.vhd:43]
+INFO: [Synth 8-638] synthesizing module 'design_BRAM_B_wrapper' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_B_wrapper.vhd:31]
+INFO: [Synth 8-3491] module 'design_BRAM_B' declared at 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/synth/design_BRAM_B.vhd:14' bound to instance 'design_BRAM_B_i' of component 'design_BRAM_B' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_B_wrapper.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'design_BRAM_B' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/synth/design_BRAM_B.vhd:35]
+INFO: [Synth 8-3491] module 'design_BRAM_B_blk_mem_gen_0_0' declared at 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/.Xil/Vivado-720-ANURAGCHOUDAFBF/realtime/design_BRAM_B_blk_mem_gen_0_0_stub.vhdl:5' bound to instance 'blk_mem_gen_0' of component 'design_BRAM_B_blk_mem_gen_0_0' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/synth/design_BRAM_B.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'design_BRAM_B_blk_mem_gen_0_0' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/.Xil/Vivado-720-ANURAGCHOUDAFBF/realtime/design_BRAM_B_blk_mem_gen_0_0_stub.vhdl:23]
+INFO: [Synth 8-256] done synthesizing module 'design_BRAM_B' (10#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/synth/design_BRAM_B.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'design_BRAM_B_wrapper' (11#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_B_wrapper.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'design_BRAM_C_wrapper' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_C_wrapper.vhd:31]
+INFO: [Synth 8-3491] module 'design_BRAM_C' declared at 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/synth/design_BRAM_C.vhd:14' bound to instance 'design_BRAM_C_i' of component 'design_BRAM_C' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_C_wrapper.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'design_BRAM_C' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/synth/design_BRAM_C.vhd:35]
+INFO: [Synth 8-3491] module 'design_BRAM_C_blk_mem_gen_0_0' declared at 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/.Xil/Vivado-720-ANURAGCHOUDAFBF/realtime/design_BRAM_C_blk_mem_gen_0_0_stub.vhdl:5' bound to instance 'blk_mem_gen_0' of component 'design_BRAM_C_blk_mem_gen_0_0' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/synth/design_BRAM_C.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'design_BRAM_C_blk_mem_gen_0_0' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/.Xil/Vivado-720-ANURAGCHOUDAFBF/realtime/design_BRAM_C_blk_mem_gen_0_0_stub.vhdl:23]
+INFO: [Synth 8-256] done synthesizing module 'design_BRAM_C' (12#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/synth/design_BRAM_C.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'design_BRAM_C_wrapper' (13#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_C_wrapper.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'design_BRAM_D_wrapper' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_D_wrapper.vhd:31]
+INFO: [Synth 8-3491] module 'design_BRAM_D' declared at 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/synth/design_BRAM_D.vhd:14' bound to instance 'design_BRAM_D_i' of component 'design_BRAM_D' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_D_wrapper.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'design_BRAM_D' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/synth/design_BRAM_D.vhd:35]
+INFO: [Synth 8-3491] module 'design_BRAM_D_blk_mem_gen_0_0' declared at 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/.Xil/Vivado-720-ANURAGCHOUDAFBF/realtime/design_BRAM_D_blk_mem_gen_0_0_stub.vhdl:5' bound to instance 'blk_mem_gen_0' of component 'design_BRAM_D_blk_mem_gen_0_0' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/synth/design_BRAM_D.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'design_BRAM_D_blk_mem_gen_0_0' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/.Xil/Vivado-720-ANURAGCHOUDAFBF/realtime/design_BRAM_D_blk_mem_gen_0_0_stub.vhdl:23]
+INFO: [Synth 8-256] done synthesizing module 'design_BRAM_D' (14#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/synth/design_BRAM_D.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'design_BRAM_D_wrapper' (15#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_D_wrapper.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'design_MAC_wrapper' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_MAC_wrapper.vhd:35]
+INFO: [Synth 8-3491] module 'design_MAC' declared at 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/synth/design_MAC.vhd:14' bound to instance 'design_MAC_i' of component 'design_MAC' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_MAC_wrapper.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'design_MAC' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/synth/design_MAC.vhd:39]
+INFO: [Synth 8-3491] module 'design_MAC_floating_point_0_0' declared at 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/.Xil/Vivado-720-ANURAGCHOUDAFBF/realtime/design_MAC_floating_point_0_0_stub.vhdl:5' bound to instance 'floating_point_0' of component 'design_MAC_floating_point_0_0' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/synth/design_MAC.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'design_MAC_floating_point_0_0' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/.Xil/Vivado-720-ANURAGCHOUDAFBF/realtime/design_MAC_floating_point_0_0_stub.vhdl:27]
+INFO: [Synth 8-256] done synthesizing module 'design_MAC' (16#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/synth/design_MAC.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'design_MAC_wrapper' (17#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_MAC_wrapper.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'design_DIV_wrapper' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_DIV_wrapper.vhd:29]
+INFO: [Synth 8-3491] module 'design_DIV' declared at 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/synth/design_DIV.vhd:14' bound to instance 'design_DIV_i' of component 'design_DIV' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_DIV_wrapper.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'design_DIV' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/synth/design_DIV.vhd:33]
+INFO: [Synth 8-3491] module 'design_DIV_floating_point_0_0' declared at 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/.Xil/Vivado-720-ANURAGCHOUDAFBF/realtime/design_DIV_floating_point_0_0_stub.vhdl:5' bound to instance 'floating_point_0' of component 'design_DIV_floating_point_0_0' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/synth/design_DIV.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'design_DIV_floating_point_0_0' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/.Xil/Vivado-720-ANURAGCHOUDAFBF/realtime/design_DIV_floating_point_0_0_stub.vhdl:21]
+INFO: [Synth 8-256] done synthesizing module 'design_DIV' (18#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/synth/design_DIV.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'design_DIV_wrapper' (19#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_DIV_wrapper.vhd:29]
+INFO: [Synth 8-638] synthesizing module 'MUX_AU_IN' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/autoHdlFiles/MUX_AU_IN.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'MUX_AU_IN' (20#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/autoHdlFiles/MUX_AU_IN.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'MUX_BRAM_IN' [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/autoHdlFiles/MUX_BRAM_IN.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'MUX_BRAM_IN' (21#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/autoHdlFiles/MUX_BRAM_IN.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'LUDHardware' (22#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/autoHdlFiles/LUDHardware.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'LUDH_TEST_WRAPPER' (23#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/hdlFiles/hardwareTesterWrapper.vhd:86]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg3_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:374]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg12_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:383]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg13_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:384]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg14_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:385]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg15_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:386]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg39_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:410]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg40_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:411]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg41_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:412]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg42_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:413]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg43_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:414]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg44_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:415]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg45_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:416]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg46_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:417]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg47_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:418]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg48_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:419]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg49_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:420]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg50_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:421]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg51_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:422]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:500]
+INFO: [Synth 8-256] done synthesizing module 'myip_LUdecomposition_v2_v1_0_S00_AXI' (24#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:96]
+INFO: [Synth 8-256] done synthesizing module 'myip_LUdecomposition_v2_v1_0' (25#1) [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0.vhd:55]
+WARNING: [Synth 8-3331] design LUDHardware has unconnected port CTRL_Signal[0]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_block_A_we[3]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_block_A_we[2]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_block_A_we[1]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_block_B_we[3]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_block_B_we[2]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_block_B_we[1]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_block_C_we[3]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_block_C_we[2]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_block_C_we[1]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_block_D_we[3]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_block_D_we[2]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_block_D_we[1]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[31]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[30]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[29]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[28]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[27]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[26]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[25]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[24]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[23]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[22]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[21]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[20]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[19]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[18]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[17]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[16]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[15]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[14]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[13]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_addr[12]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_din_part_11[31]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_din_part_11[30]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_din_part_11[29]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_din_part_11[28]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_din_part_11[27]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_din_part_11[26]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_din_part_11[25]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_din_part_11[24]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_din_part_11[23]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_din_part_11[22]
+WARNING: [Synth 8-3331] design LUDH_TEST_WRAPPER has unconnected port bram_ZYNQ_INST_din_part_11[21]
+WARNING: [Synth 8-3331] design myip_LUdecomposition_v2_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design myip_LUdecomposition_v2_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design myip_LUdecomposition_v2_v1_0_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design myip_LUdecomposition_v2_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design myip_LUdecomposition_v2_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design myip_LUdecomposition_v2_v1_0_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 584.117 ; gain = 282.719
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 584.117 ; gain = 282.719
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:16 . Memory (MB): peak = 584.117 ; gain = 282.719
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/ip/design_DIV_floating_point_0_0/design_DIV_floating_point_0_0/design_DIV_floating_point_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_A/design_DIV_i/floating_point_0'
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/ip/design_DIV_floating_point_0_0/design_DIV_floating_point_0_0/design_DIV_floating_point_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_A/design_DIV_i/floating_point_0'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/ip/design_DIV_floating_point_0_0/design_DIV_floating_point_0_0/design_DIV_floating_point_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_B/design_DIV_i/floating_point_0'
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/ip/design_DIV_floating_point_0_0/design_DIV_floating_point_0_0/design_DIV_floating_point_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_B/design_DIV_i/floating_point_0'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/ip/design_DIV_floating_point_0_0/design_DIV_floating_point_0_0/design_DIV_floating_point_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_C/design_DIV_i/floating_point_0'
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/ip/design_DIV_floating_point_0_0/design_DIV_floating_point_0_0/design_DIV_floating_point_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_C/design_DIV_i/floating_point_0'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/ip/design_DIV_floating_point_0_0/design_DIV_floating_point_0_0/design_DIV_floating_point_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_D/design_DIV_i/floating_point_0'
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/ip/design_DIV_floating_point_0_0/design_DIV_floating_point_0_0/design_DIV_floating_point_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_D/design_DIV_i/floating_point_0'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/ip/design_MAC_floating_point_0_0/design_MAC_floating_point_0_0/design_MAC_floating_point_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0'
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/ip/design_MAC_floating_point_0_0/design_MAC_floating_point_0_0/design_MAC_floating_point_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/ip/design_MAC_floating_point_0_0/design_MAC_floating_point_0_0/design_MAC_floating_point_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0'
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/ip/design_MAC_floating_point_0_0/design_MAC_floating_point_0_0/design_MAC_floating_point_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/ip/design_MAC_floating_point_0_0/design_MAC_floating_point_0_0/design_MAC_floating_point_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0'
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/ip/design_MAC_floating_point_0_0/design_MAC_floating_point_0_0/design_MAC_floating_point_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/ip/design_MAC_floating_point_0_0/design_MAC_floating_point_0_0/design_MAC_floating_point_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0'
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/ip/design_MAC_floating_point_0_0/design_MAC_floating_point_0_0/design_MAC_floating_point_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/ip/design_BRAM_D_blk_mem_gen_0_0/design_BRAM_D_blk_mem_gen_0_0/design_BRAM_D_blk_mem_gen_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_D/design_BRAM_D_i/blk_mem_gen_0'
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/ip/design_BRAM_D_blk_mem_gen_0_0/design_BRAM_D_blk_mem_gen_0_0/design_BRAM_D_blk_mem_gen_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_D/design_BRAM_D_i/blk_mem_gen_0'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/ip/design_BRAM_C_blk_mem_gen_0_0/design_BRAM_C_blk_mem_gen_0_0/design_BRAM_D_blk_mem_gen_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_C/design_BRAM_C_i/blk_mem_gen_0'
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/ip/design_BRAM_C_blk_mem_gen_0_0/design_BRAM_C_blk_mem_gen_0_0/design_BRAM_D_blk_mem_gen_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_C/design_BRAM_C_i/blk_mem_gen_0'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/ip/design_BRAM_B_blk_mem_gen_0_0/design_BRAM_B_blk_mem_gen_0_0/design_BRAM_D_blk_mem_gen_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_B/design_BRAM_B_i/blk_mem_gen_0'
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/ip/design_BRAM_B_blk_mem_gen_0_0/design_BRAM_B_blk_mem_gen_0_0/design_BRAM_D_blk_mem_gen_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_B/design_BRAM_B_i/blk_mem_gen_0'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/ip/design_BRAM_A_blk_mem_gen_0_1/design_BRAM_A_blk_mem_gen_0_1/design_BRAM_D_blk_mem_gen_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_A/design_BRAM_A_i/blk_mem_gen_0'
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/ip/design_BRAM_A_blk_mem_gen_0_1/design_BRAM_A_blk_mem_gen_0_1/design_BRAM_D_blk_mem_gen_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_A/design_BRAM_A_i/blk_mem_gen_0'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/ip/design_CTRL_blk_mem_gen_0_0/design_CTRL_blk_mem_gen_0_0/design_CTRL_blk_mem_gen_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0'
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/ip/design_CTRL_blk_mem_gen_0_0/design_CTRL_blk_mem_gen_0_0/design_CTRL_blk_mem_gen_0_0_in_context.xdc] for cell 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0'
+Parsing XDC File [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/constraintsFiles/Connections.xdc]
+Finished Parsing XDC File [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/constraintsFiles/Connections.xdc]
+Parsing XDC File [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1684.914 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1684.914 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 1684.914 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:58 ; elapsed = 00:01:02 . Memory (MB): peak = 1684.914 ; gain = 1383.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:58 ; elapsed = 00:01:02 . Memory (MB): peak = 1684.914 ; gain = 1383.516
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_A/design_DIV_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_B/design_DIV_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_C/design_DIV_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_D/design_DIV_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_A/design_DIV_i/floating_point_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_B/design_DIV_i/floating_point_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_C/design_DIV_i/floating_point_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_D/design_DIV_i/floating_point_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_D/design_BRAM_D_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_D/design_BRAM_D_i/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_C/design_BRAM_C_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_C/design_BRAM_C_i/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_B/design_BRAM_B_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_B/design_BRAM_B_i/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_A/design_BRAM_A_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_A/design_BRAM_A_i/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:58 ; elapsed = 00:01:02 . Memory (MB): peak = 1684.914 ; gain = 1383.516
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'pr_state_reg' in module 'LUDH_Tester'
+INFO: [Synth 8-5544] ROM "test_completed" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "run_test" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "reset_counter_reg" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nxt_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nxt_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                              001 |                               00
+                  iSTATE |                              010 |                               01
+                 iSTATE1 |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'pr_state_reg' using encoding 'one-hot' in module 'LUDH_Tester'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:01:13 ; elapsed = 00:01:18 . Memory (MB): peak = 1684.914 ; gain = 1383.516
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------------------------------+------------+----------+
+|      |RTL Partition                             |Replication |Instances |
++------+------------------------------------------+------------+----------+
+|1     |LUDH_TEST_WRAPPER                         |           1|     31671|
+|2     |myip_LUdecomposition_v2_v1_0_S00_AXI__GB1 |           1|     36131|
+|3     |myip_LUdecomposition_v2_v1_0_S00_AXI__GB2 |           1|        83|
++------+------------------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
++---XORs : 
+	   2 Input      1 Bit         XORs := 4     
++---Registers : 
+	               45 Bit    Registers := 8     
+	               32 Bit    Registers := 135   
+	               12 Bit    Registers := 1     
+	                9 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input    373 Bit        Muxes := 4     
+	   2 Input     32 Bit        Muxes := 130   
+	 128 Input     32 Bit        Muxes := 110   
+	   2 Input     12 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 12    
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 30    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module myReg 
+Detailed RTL Component Info : 
++---Registers : 
+	               12 Bit    Registers := 1     
+Module bram_ZYNQ_decoder 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input    373 Bit        Muxes := 2     
+Module LUDH_Tester 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     12 Bit       Adders := 1     
++---Muxes : 
+	   2 Input    373 Bit        Muxes := 2     
+	   2 Input     12 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 4     
+	   3 Input      1 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
+Module myReg__parameterized0__3 
+Detailed RTL Component Info : 
++---Registers : 
+	               45 Bit    Registers := 1     
+Module myReg__parameterized1__11 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized1__10 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized1__9 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized0__2 
+Detailed RTL Component Info : 
++---Registers : 
+	               45 Bit    Registers := 1     
+Module myReg__parameterized1__8 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized1__7 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized1__6 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module quadPortBRAM__1 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+Module bram_ZYNQ_mux__1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module bram_ZYNQ_decoder__parameterized0__1 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module myReg__parameterized0__5 
+Detailed RTL Component Info : 
++---Registers : 
+	               45 Bit    Registers := 1     
+Module myReg__parameterized1__17 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized1__16 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized1__15 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized0__4 
+Detailed RTL Component Info : 
++---Registers : 
+	               45 Bit    Registers := 1     
+Module myReg__parameterized1__14 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized1__13 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized1__12 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module quadPortBRAM__2 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+Module bram_ZYNQ_mux__2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module bram_ZYNQ_decoder__parameterized0__2 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module myReg__parameterized0__7 
+Detailed RTL Component Info : 
++---Registers : 
+	               45 Bit    Registers := 1     
+Module myReg__parameterized1__23 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized1__22 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized1__21 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized0__6 
+Detailed RTL Component Info : 
++---Registers : 
+	               45 Bit    Registers := 1     
+Module myReg__parameterized1__20 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized1__19 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized1__18 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module quadPortBRAM__3 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+Module bram_ZYNQ_mux__3 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module bram_ZYNQ_decoder__parameterized0__3 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module myReg__parameterized0__1 
+Detailed RTL Component Info : 
++---Registers : 
+	               45 Bit    Registers := 1     
+Module myReg__parameterized1__1 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized1__2 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized1__3 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized0 
+Detailed RTL Component Info : 
++---Registers : 
+	               45 Bit    Registers := 1     
+Module myReg__parameterized1__4 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized1__5 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module myReg__parameterized1 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 1     
+Module quadPortBRAM 
+Detailed RTL Component Info : 
++---XORs : 
+	   2 Input      1 Bit         XORs := 1     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   2 Input     11 Bit        Muxes := 2     
+	   2 Input      1 Bit        Muxes := 4     
+Module bram_ZYNQ_mux 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input     11 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 2     
+Module bram_ZYNQ_decoder__parameterized0 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+Module myip_LUdecomposition_v2_v1_0_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 111   
+	                9 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 110   
+	 128 Input     32 Bit        Muxes := 110   
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design myip_LUdecomposition_v2_v1_0 has unconnected port s00_axi_awprot[2]
+WARNING: [Synth 8-3331] design myip_LUdecomposition_v2_v1_0 has unconnected port s00_axi_awprot[1]
+WARNING: [Synth 8-3331] design myip_LUdecomposition_v2_v1_0 has unconnected port s00_axi_awprot[0]
+WARNING: [Synth 8-3331] design myip_LUdecomposition_v2_v1_0 has unconnected port s00_axi_arprot[2]
+WARNING: [Synth 8-3331] design myip_LUdecomposition_v2_v1_0 has unconnected port s00_axi_arprot[1]
+WARNING: [Synth 8-3331] design myip_LUdecomposition_v2_v1_0 has unconnected port s00_axi_arprot[0]
+INFO: [Synth 8-3886] merging instance 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/BRAM_D/portDInReg/DOUT_reg[1]' (FDCE) to 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/BRAM_D/portBInReg/DOUT_reg[1]'
+INFO: [Synth 8-3886] merging instance 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/BRAM_C/portDInReg/DOUT_reg[1]' (FDCE) to 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/BRAM_C/portBInReg/DOUT_reg[1]'
+INFO: [Synth 8-3886] merging instance 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/BRAM_B/portDInReg/DOUT_reg[1]' (FDCE) to 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/BRAM_B/portBInReg/DOUT_reg[1]'
+INFO: [Synth 8-3886] merging instance 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/BRAM_A/portDInReg/DOUT_reg[1]' (FDCE) to 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/BRAM_A/portBInReg/DOUT_reg[1]'
+INFO: [Synth 8-3886] merging instance 'myip_LUdecomposition_v2_v1_0_S00_AXI_insti_1/axi_rresp_reg[0]' (FDRE) to 'myip_LUdecomposition_v2_v1_0_S00_AXI_insti_1/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (myip_LUdecomposition_v2_v1_0_S00_AXI_insti_1/\axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'myip_LUdecomposition_v2_v1_0_S00_AXI_insti_1/axi_bresp_reg[0]' (FDRE) to 'myip_LUdecomposition_v2_v1_0_S00_AXI_insti_1/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (myip_LUdecomposition_v2_v1_0_S00_AXI_insti_1/\axi_bresp_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:04 ; elapsed = 00:02:11 . Memory (MB): peak = 1803.406 ; gain = 1502.008
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------------------------------+------------+----------+
+|      |RTL Partition                             |Replication |Instances |
++------+------------------------------------------+------------+----------+
+|1     |LUDH_TEST_WRAPPER                         |           1|     32170|
+|2     |myip_LUdecomposition_v2_v1_0_S00_AXI__GB1 |           1|      8094|
+|3     |myip_LUdecomposition_v2_v1_0_S00_AXI__GB2 |           1|        73|
++------+------------------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:19 ; elapsed = 00:02:28 . Memory (MB): peak = 2050.074 ; gain = 1748.676
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:02:19 ; elapsed = 00:02:28 . Memory (MB): peak = 2050.102 ; gain = 1748.703
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------------------------------+------------+----------+
+|      |RTL Partition                             |Replication |Instances |
++------+------------------------------------------+------------+----------+
+|1     |LUDH_TEST_WRAPPER                         |           1|     32170|
+|2     |myip_LUdecomposition_v2_v1_0_S00_AXI__GB1 |           1|      8094|
+|3     |myip_LUdecomposition_v2_v1_0_S00_AXI__GB2 |           1|        73|
++------+------------------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/BRAM_A/portBInReg/DOUT_reg[1]' (FDCE) to 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/BRAM_D/portBInReg/DOUT_reg[1]'
+INFO: [Synth 8-3886] merging instance 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/BRAM_B/portBInReg/DOUT_reg[1]' (FDCE) to 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/BRAM_D/portBInReg/DOUT_reg[1]'
+INFO: [Synth 8-3886] merging instance 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/BRAM_C/portBInReg/DOUT_reg[1]' (FDCE) to 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/BRAM_D/portBInReg/DOUT_reg[1]'
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:02:26 ; elapsed = 00:02:35 . Memory (MB): peak = 2163.992 ; gain = 1862.594
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:02:29 ; elapsed = 00:02:38 . Memory (MB): peak = 2163.992 ; gain = 1862.594
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:02:29 ; elapsed = 00:02:38 . Memory (MB): peak = 2163.992 ; gain = 1862.594
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:31 ; elapsed = 00:02:40 . Memory (MB): peak = 2163.992 ; gain = 1862.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:02:33 ; elapsed = 00:02:43 . Memory (MB): peak = 2163.992 ; gain = 1862.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:02:34 ; elapsed = 00:02:43 . Memory (MB): peak = 2163.992 ; gain = 1862.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:02:34 ; elapsed = 00:02:43 . Memory (MB): peak = 2163.992 ; gain = 1862.594
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+------------------------------+----------+
+|      |BlackBox name                 |Instances |
++------+------------------------------+----------+
+|1     |design_DIV_floating_point_0_0 |         4|
+|2     |design_MAC_floating_point_0_0 |         4|
+|3     |design_BRAM_A_blk_mem_gen_0_1 |         1|
+|4     |design_BRAM_B_blk_mem_gen_0_0 |         1|
+|5     |design_BRAM_C_blk_mem_gen_0_0 |         1|
+|6     |design_BRAM_D_blk_mem_gen_0_0 |         1|
+|7     |design_CTRL_blk_mem_gen_0_0   |         1|
++------+------------------------------+----------+
+
+Report Cell Usage: 
++------+----------------------------------------+------+
+|      |Cell                                    |Count |
++------+----------------------------------------+------+
+|1     |design_BRAM_A_blk_mem_gen_0_1_bbox_1    |     1|
+|2     |design_BRAM_B_blk_mem_gen_0_0_bbox_2    |     1|
+|3     |design_BRAM_C_blk_mem_gen_0_0_bbox_3    |     1|
+|4     |design_BRAM_D_blk_mem_gen_0_0_bbox_4    |     1|
+|5     |design_CTRL_blk_mem_gen_0_0_bbox_0      |     1|
+|6     |design_DIV_floating_point_0_0_bbox_6    |     1|
+|7     |design_DIV_floating_point_0_0_bbox_6__4 |     1|
+|8     |design_DIV_floating_point_0_0_bbox_6__5 |     1|
+|9     |design_DIV_floating_point_0_0_bbox_6__6 |     1|
+|10    |design_MAC_floating_point_0_0_bbox_5    |     1|
+|11    |design_MAC_floating_point_0_0_bbox_5__4 |     1|
+|12    |design_MAC_floating_point_0_0_bbox_5__5 |     1|
+|13    |design_MAC_floating_point_0_0_bbox_5__6 |     1|
+|14    |BUFG                                    |     3|
+|15    |LUT1                                    |    11|
+|16    |LUT2                                    |  1233|
+|17    |LUT3                                    |    38|
+|18    |LUT4                                    |    30|
+|19    |LUT5                                    |  1188|
+|20    |LUT6                                    |  8665|
+|21    |MUXF7                                   |  3338|
+|22    |MUXF8                                   |  1013|
+|23    |FDCE                                    |  1133|
+|24    |FDRE                                    |  3593|
+|25    |FDSE                                    |    27|
+|26    |IBUF                                    |    59|
+|27    |OBUF                                    |    41|
++------+----------------------------------------+------+
+
+Report Instance Areas: 
++------+--------------------------------------------+-------------------------------------+------+
+|      |Instance                                    |Module                               |Cells |
++------+--------------------------------------------+-------------------------------------+------+
+|1     |top                                         |                                     | 21289|
+|2     |  myip_LUdecomposition_v2_v1_0_S00_AXI_inst |myip_LUdecomposition_v2_v1_0_S00_AXI | 21186|
+|3     |    main_entity                             |LUDH_TEST_WRAPPER                    | 15677|
+|4     |      LUDH                                  |LUDHardware                          | 13776|
+|5     |        BRAM_A                              |quadPortBRAM                         |  2681|
+|6     |          portAOutReg0                      |myReg__parameterized1_25             |    33|
+|7     |          portAOutReg1                      |myReg__parameterized1_26             |    32|
+|8     |          portBInReg                        |myReg__parameterized0_27             |    96|
+|9     |          portBOutReg                       |myReg__parameterized1_28             |    32|
+|10    |          portCOutReg0                      |myReg__parameterized1_29             |    32|
+|11    |          portCOutReg1                      |myReg__parameterized1_30             |    32|
+|12    |          portDInReg                        |myReg__parameterized0_31             |    88|
+|13    |          portDOutReg                       |myReg__parameterized1_32             |  2336|
+|14    |        BRAM_B                              |quadPortBRAM_0                       |  1520|
+|15    |          portAOutReg0                      |myReg__parameterized1_17             |    32|
+|16    |          portAOutReg1                      |myReg__parameterized1_18             |    32|
+|17    |          portBInReg                        |myReg__parameterized0_19             |    88|
+|18    |          portBOutReg                       |myReg__parameterized1_20             |    32|
+|19    |          portCOutReg0                      |myReg__parameterized1_21             |    32|
+|20    |          portCOutReg1                      |myReg__parameterized1_22             |    32|
+|21    |          portDInReg                        |myReg__parameterized0_23             |    88|
+|22    |          portDOutReg                       |myReg__parameterized1_24             |  1184|
+|23    |        BRAM_C                              |quadPortBRAM_1                       |  2420|
+|24    |          portAOutReg0                      |myReg__parameterized1_9              |    32|
+|25    |          portAOutReg1                      |myReg__parameterized1_10             |    32|
+|26    |          portBInReg                        |myReg__parameterized0_11             |    88|
+|27    |          portBOutReg                       |myReg__parameterized1_12             |    32|
+|28    |          portCOutReg0                      |myReg__parameterized1_13             |    32|
+|29    |          portCOutReg1                      |myReg__parameterized1_14             |    32|
+|30    |          portDInReg                        |myReg__parameterized0_15             |    88|
+|31    |          portDOutReg                       |myReg__parameterized1_16             |  2084|
+|32    |        BRAM_D                              |quadPortBRAM_2                       |  1527|
+|33    |          portAOutReg0                      |myReg__parameterized1                |    32|
+|34    |          portAOutReg1                      |myReg__parameterized1_3              |    32|
+|35    |          portBInReg                        |myReg__parameterized0                |    95|
+|36    |          portBOutReg                       |myReg__parameterized1_4              |    32|
+|37    |          portCOutReg0                      |myReg__parameterized1_5              |    32|
+|38    |          portCOutReg1                      |myReg__parameterized1_6              |    32|
+|39    |          portDInReg                        |myReg__parameterized0_7              |    88|
+|40    |          portDOutReg                       |myReg__parameterized1_8              |  1184|
+|41    |        DIV_A                               |design_DIV_wrapper__xdcDup__1        |    35|
+|42    |          design_DIV_i                      |design_DIV__xdcDup__1                |    35|
+|43    |        DIV_B                               |design_DIV_wrapper__xdcDup__2        |    35|
+|44    |          design_DIV_i                      |design_DIV__xdcDup__2                |    35|
+|45    |        DIV_C                               |design_DIV_wrapper__xdcDup__3        |    35|
+|46    |          design_DIV_i                      |design_DIV__xdcDup__3                |    35|
+|47    |        DIV_D                               |design_DIV_wrapper                   |  1187|
+|48    |          design_DIV_i                      |design_DIV                           |    35|
+|49    |        MAC_A                               |design_MAC_wrapper__xdcDup__1        |    37|
+|50    |          design_MAC_i                      |design_MAC__xdcDup__1                |    37|
+|51    |        MAC_B                               |design_MAC_wrapper__xdcDup__2        |    37|
+|52    |          design_MAC_i                      |design_MAC__xdcDup__2                |    37|
+|53    |        MAC_C                               |design_MAC_wrapper__xdcDup__3        |    37|
+|54    |          design_MAC_i                      |design_MAC__xdcDup__3                |    37|
+|55    |        MAC_D                               |design_MAC_wrapper                   |  3745|
+|56    |          design_MAC_i                      |design_MAC                           |    37|
+|57    |        block_A                             |design_BRAM_A_wrapper                |    97|
+|58    |          design_BRAM_A_i                   |design_BRAM_A                        |    64|
+|59    |        block_B                             |design_BRAM_B_wrapper                |    96|
+|60    |          design_BRAM_B_i                   |design_BRAM_B                        |    64|
+|61    |        block_C                             |design_BRAM_C_wrapper                |    96|
+|62    |          design_BRAM_C_i                   |design_BRAM_C                        |    64|
+|63    |        block_D                             |design_BRAM_D_wrapper                |   191|
+|64    |          design_BRAM_D_i                   |design_BRAM_D                        |    64|
+|65    |      tester                                |LUDH_Tester                          |  1388|
+|66    |        ctrlAddrReg                         |myReg                                |    40|
+|67    |        ctrlStorage                         |design_CTRL_wrapper                  |  1340|
+|68    |          design_CTRL_i                     |design_CTRL                          |   373|
++------+--------------------------------------------+-------------------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:02:34 ; elapsed = 00:02:43 . Memory (MB): peak = 2163.992 ; gain = 1862.594
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:43 ; elapsed = 00:02:04 . Memory (MB): peak = 2163.992 ; gain = 761.797
+Synthesis Optimization Complete : Time (s): cpu = 00:02:34 ; elapsed = 00:02:43 . Memory (MB): peak = 2163.992 ; gain = 1862.594
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 4413 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2171.828 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 62 instances were transformed.
+  BUFG => BUFGCE: 3 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 59 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+113 Infos, 76 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:02:44 ; elapsed = 00:02:53 . Memory (MB): peak = 2171.828 ; gain = 1870.430
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 2171.828 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_1/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/myip_LUdecomposition_v2_v1_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:06 ; elapsed = 00:00:05 . Memory (MB): peak = 2171.828 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file myip_LUdecomposition_v2_v1_0_utilization_synth.rpt -pb myip_LUdecomposition_v2_v1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 23 17:07:36 2020...

@@ -1,0 +1,1210 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Thu May  7 11:23:57 2020
+# Process ID: 11476
+# Current directory: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.runs/design_101_myip_LUdecomposition_0_0_synth_1
+# Command line: vivado.exe -log design_101_myip_LUdecomposition_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_101_myip_LUdecomposition_0_0.tcl
+# Log file: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.runs/design_101_myip_LUdecomposition_0_0_synth_1/design_101_myip_LUdecomposition_0_0.vds
+# Journal file: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.runs/design_101_myip_LUdecomposition_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_101_myip_LUdecomposition_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_ip_project/Hardware/LUD_v3_4_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+update_ip_catalog: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 277.113 ; gain = 28.516
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.cache/ip 
+Command: synth_design -top design_101_myip_LUdecomposition_0_0 -part xczu7ev-ffvc1156-2-e -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu7ev'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 8136 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 398.629 ; gain = 98.480
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'design_101_myip_LUdecomposition_0_0' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/synth/design_101_myip_LUdecomposition_0_0.vhd:83]
+	Parameter ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH_DATA_BRAM bound to: 10 - type: integer 
+	Parameter CTRL_WIDTH bound to: 357 - type: integer 
+	Parameter AU_SEL_WIDTH bound to: 5 - type: integer 
+	Parameter BRAM_SEL_WIDTH bound to: 5 - type: integer 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-3491] module 'myip_LUdecomposition_v2_v1_0' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0.vhd:5' bound to instance 'U0' of component 'myip_LUdecomposition_v2_v1_0' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/synth/design_101_myip_LUdecomposition_0_0.vhd:159]
+INFO: [Synth 8-638] synthesizing module 'myip_LUdecomposition_v2_v1_0' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0.vhd:53]
+	Parameter ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH_DATA_BRAM bound to: 10 - type: integer 
+	Parameter CTRL_WIDTH bound to: 357 - type: integer 
+	Parameter AU_SEL_WIDTH bound to: 5 - type: integer 
+	Parameter BRAM_SEL_WIDTH bound to: 5 - type: integer 
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+	Parameter ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH_DATA_BRAM bound to: 10 - type: integer 
+	Parameter CTRL_WIDTH bound to: 357 - type: integer 
+	Parameter AU_SEL_WIDTH bound to: 5 - type: integer 
+	Parameter BRAM_SEL_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-3491] module 'myip_LUdecomposition_v2_v1_0_S00_AXI' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:8' bound to instance 'myip_LUdecomposition_v2_v1_0_S00_AXI_inst' of component 'myip_LUdecomposition_v2_v1_0_S00_AXI' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0.vhd:100]
+INFO: [Synth 8-638] synthesizing module 'myip_LUdecomposition_v2_v1_0_S00_AXI' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:94]
+	Parameter ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH_DATA_BRAM bound to: 10 - type: integer 
+	Parameter CTRL_WIDTH bound to: 357 - type: integer 
+	Parameter AU_SEL_WIDTH bound to: 5 - type: integer 
+	Parameter BRAM_SEL_WIDTH bound to: 5 - type: integer 
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 9 - type: integer 
+INFO: [Synth 8-226] default block is never used [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:543]
+INFO: [Synth 8-226] default block is never used [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:1789]
+INFO: [Synth 8-638] synthesizing module 'LUDH_TEST_WRAPPER' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/hardwareTesterWrapper.vhd:97]
+	Parameter ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter ADDR_WIDTH_DATA_BRAM bound to: 10 - type: integer 
+	Parameter CTRL_WIDTH bound to: 357 - type: integer 
+	Parameter AU_SEL_WIDTH bound to: 5 - type: integer 
+	Parameter BRAM_SEL_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'LUDH_Tester' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/hardwareTester.vhd:35]
+	Parameter ADDR_WIDTH bound to: 12 - type: integer 
+	Parameter CTRL_WIDTH bound to: 357 - type: integer 
+INFO: [Synth 8-638] synthesizing module 'myReg' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/regs.vhd:16]
+	Parameter DATA_WIDTH bound to: 12 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'myReg' (1#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/regs.vhd:16]
+INFO: [Synth 8-3491] module 'design_CTRL_wrapper' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_CTRL_wrapper.vhd:14' bound to instance 'ctrlStorage' of component 'design_CTRL_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/hardwareTester.vhd:159]
+INFO: [Synth 8-638] synthesizing module 'design_CTRL_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_CTRL_wrapper.vhd:25]
+INFO: [Synth 8-3491] module 'design_CTRL' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_CTRL.vhd:14' bound to instance 'design_CTRL_i' of component 'design_CTRL' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_CTRL_wrapper.vhd:37]
+INFO: [Synth 8-638] synthesizing module 'design_CTRL' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_CTRL.vhd:29]
+INFO: [Synth 8-3491] module 'design_CTRL_blk_mem_gen_0_0' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_CTRL_blk_mem_gen_0_0/synth/design_CTRL_blk_mem_gen_0_0.vhd:59' bound to instance 'blk_mem_gen_0' of component 'design_CTRL_blk_mem_gen_0_0' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_CTRL.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'design_CTRL_blk_mem_gen_0_0' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_CTRL_blk_mem_gen_0_0/synth/design_CTRL_blk_mem_gen_0_0.vhd:70]
+	Parameter C_FAMILY bound to: zynquplus - type: string 
+	Parameter C_XDEVICEFAMILY bound to: zynquplus - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 0 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: NONE - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 357 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 357 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 4096 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 4096 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 12 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 0 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 357 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 357 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 4096 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 4096 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 12 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 40 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     72.977408 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_2' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/ipshared/37c2/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_2' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_CTRL_blk_mem_gen_0_0/synth/design_CTRL_blk_mem_gen_0_0.vhd:236]
+INFO: [Synth 8-256] done synthesizing module 'design_CTRL_blk_mem_gen_0_0' (10#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_CTRL_blk_mem_gen_0_0/synth/design_CTRL_blk_mem_gen_0_0.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'design_CTRL' (11#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_CTRL.vhd:29]
+INFO: [Synth 8-256] done synthesizing module 'design_CTRL_wrapper' (12#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_CTRL_wrapper.vhd:25]
+INFO: [Synth 8-638] synthesizing module 'bram_ZYNQ_decoder' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/bram_ZYNQ_decoder.vhd:43]
+	Parameter width bound to: 357 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'bram_ZYNQ_decoder' (13#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/bram_ZYNQ_decoder.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'LUDH_Tester' (14#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/hardwareTester.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'LUDHardware' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/LUDHardware.vhd:76]
+	Parameter ADDR_WIDTH bound to: 10 - type: integer 
+	Parameter CTRL_WIDTH bound to: 357 - type: integer 
+	Parameter AU_SEL_WIDTH bound to: 5 - type: integer 
+	Parameter BRAM_SEL_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'design_BRAM_A_wrapper' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_BRAM_A_wrapper.vhd:14' bound to instance 'block_A' of component 'design_BRAM_A_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/LUDHardware.vhd:484]
+INFO: [Synth 8-638] synthesizing module 'design_BRAM_A_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_BRAM_A_wrapper.vhd:31]
+INFO: [Synth 8-3491] module 'design_BRAM_A' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_BRAM_A.vhd:14' bound to instance 'design_BRAM_A_i' of component 'design_BRAM_A' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_BRAM_A_wrapper.vhd:49]
+INFO: [Synth 8-638] synthesizing module 'design_BRAM_A' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_BRAM_A.vhd:35]
+INFO: [Synth 8-3491] module 'design_BRAM_A_blk_mem_gen_0_0' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_blk_mem_gen_0_0/synth/design_BRAM_A_blk_mem_gen_0_0.vhd:59' bound to instance 'blk_mem_gen_0' of component 'design_BRAM_A_blk_mem_gen_0_0' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_BRAM_A.vhd:93]
+INFO: [Synth 8-638] synthesizing module 'design_BRAM_A_blk_mem_gen_0_0' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_blk_mem_gen_0_0/synth/design_BRAM_A_blk_mem_gen_0_0.vhd:76]
+	Parameter C_FAMILY bound to: zynquplus - type: string 
+	Parameter C_XDEVICEFAMILY bound to: zynquplus - type: string 
+	Parameter C_ELABORATION_DIR bound to: ./ - type: string 
+	Parameter C_INTERFACE_TYPE bound to: 0 - type: integer 
+	Parameter C_AXI_TYPE bound to: 1 - type: integer 
+	Parameter C_AXI_SLAVE_TYPE bound to: 0 - type: integer 
+	Parameter C_USE_BRAM_BLOCK bound to: 0 - type: integer 
+	Parameter C_ENABLE_32BIT_ADDRESS bound to: 0 - type: integer 
+	Parameter C_CTRL_ECC_ALGO bound to: NONE - type: string 
+	Parameter C_HAS_AXI_ID bound to: 0 - type: integer 
+	Parameter C_AXI_ID_WIDTH bound to: 4 - type: integer 
+	Parameter C_MEM_TYPE bound to: 2 - type: integer 
+	Parameter C_BYTE_SIZE bound to: 9 - type: integer 
+	Parameter C_ALGORITHM bound to: 1 - type: integer 
+	Parameter C_PRIM_TYPE bound to: 1 - type: integer 
+	Parameter C_LOAD_INIT_FILE bound to: 0 - type: integer 
+	Parameter C_INIT_FILE_NAME bound to: no_coe_file_loaded - type: string 
+	Parameter C_INIT_FILE bound to: NONE - type: string 
+	Parameter C_USE_DEFAULT_DATA bound to: 0 - type: integer 
+	Parameter C_DEFAULT_DATA bound to: 0 - type: string 
+	Parameter C_HAS_RSTA bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_A bound to: CE - type: string 
+	Parameter C_RSTRAM_A bound to: 0 - type: integer 
+	Parameter C_INITA_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENA bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEA bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEA bound to: 0 - type: integer 
+	Parameter C_WEA_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_A bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_A bound to: 64 - type: integer 
+	Parameter C_READ_WIDTH_A bound to: 64 - type: integer 
+	Parameter C_WRITE_DEPTH_A bound to: 1024 - type: integer 
+	Parameter C_READ_DEPTH_A bound to: 1024 - type: integer 
+	Parameter C_ADDRA_WIDTH bound to: 10 - type: integer 
+	Parameter C_HAS_RSTB bound to: 0 - type: integer 
+	Parameter C_RST_PRIORITY_B bound to: CE - type: string 
+	Parameter C_RSTRAM_B bound to: 0 - type: integer 
+	Parameter C_INITB_VAL bound to: 0 - type: string 
+	Parameter C_HAS_ENB bound to: 1 - type: integer 
+	Parameter C_HAS_REGCEB bound to: 0 - type: integer 
+	Parameter C_USE_BYTE_WEB bound to: 0 - type: integer 
+	Parameter C_WEB_WIDTH bound to: 1 - type: integer 
+	Parameter C_WRITE_MODE_B bound to: WRITE_FIRST - type: string 
+	Parameter C_WRITE_WIDTH_B bound to: 64 - type: integer 
+	Parameter C_READ_WIDTH_B bound to: 64 - type: integer 
+	Parameter C_WRITE_DEPTH_B bound to: 1024 - type: integer 
+	Parameter C_READ_DEPTH_B bound to: 1024 - type: integer 
+	Parameter C_ADDRB_WIDTH bound to: 10 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MEM_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_MUX_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_MUX_PIPELINE_STAGES bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_INPUT_REGS_A bound to: 0 - type: integer 
+	Parameter C_HAS_SOFTECC_OUTPUT_REGS_B bound to: 0 - type: integer 
+	Parameter C_USE_SOFTECC bound to: 0 - type: integer 
+	Parameter C_USE_ECC bound to: 0 - type: integer 
+	Parameter C_EN_ECC_PIPE bound to: 0 - type: integer 
+	Parameter C_READ_LATENCY_A bound to: 1 - type: integer 
+	Parameter C_READ_LATENCY_B bound to: 1 - type: integer 
+	Parameter C_HAS_INJECTERR bound to: 0 - type: integer 
+	Parameter C_SIM_COLLISION_CHECK bound to: ALL - type: string 
+	Parameter C_COMMON_CLK bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_COLL bound to: 0 - type: integer 
+	Parameter C_EN_SLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_USE_URAM bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRA_CHG bound to: 0 - type: integer 
+	Parameter C_EN_RDADDRB_CHG bound to: 0 - type: integer 
+	Parameter C_EN_DEEPSLEEP_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SHUTDOWN_PIN bound to: 0 - type: integer 
+	Parameter C_EN_SAFETY_CKT bound to: 0 - type: integer 
+	Parameter C_DISABLE_WARN_BHV_RANGE bound to: 0 - type: integer 
+	Parameter C_COUNT_36K_BRAM bound to: 2 - type: string 
+	Parameter C_COUNT_18K_BRAM bound to: 0 - type: string 
+	Parameter C_EST_POWER_SUMMARY bound to: Estimated Power for IP     :     8.476303 mW - type: string 
+INFO: [Synth 8-3491] module 'blk_mem_gen_v8_4_2' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/ipshared/37c2/hdl/blk_mem_gen_v8_4_vhsyn_rfs.vhd:195321' bound to instance 'U0' of component 'blk_mem_gen_v8_4_2' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_blk_mem_gen_0_0/synth/design_BRAM_A_blk_mem_gen_0_0.vhd:249]
+INFO: [Synth 8-256] done synthesizing module 'design_BRAM_A_blk_mem_gen_0_0' (15#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_blk_mem_gen_0_0/synth/design_BRAM_A_blk_mem_gen_0_0.vhd:76]
+INFO: [Synth 8-256] done synthesizing module 'design_BRAM_A' (16#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_BRAM_A.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'design_BRAM_A_wrapper' (17#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_BRAM_A_wrapper.vhd:31]
+INFO: [Synth 8-638] synthesizing module 'bram_ZYNQ_mux' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/bram_ZYNQ_mux.vhd:54]
+	Parameter ADDR_WIDTH bound to: 10 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'bram_ZYNQ_mux' (18#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/bram_ZYNQ_mux.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'bram_ZYNQ_decoder__parameterized0' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/bram_ZYNQ_decoder.vhd:43]
+	Parameter width bound to: 64 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'bram_ZYNQ_decoder__parameterized0' (18#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/bram_ZYNQ_decoder.vhd:43]
+INFO: [Synth 8-3491] module 'design_BRAM_A_wrapper' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_BRAM_A_wrapper.vhd:14' bound to instance 'block_B' of component 'design_BRAM_A_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/LUDHardware.vhd:524]
+INFO: [Synth 8-3491] module 'design_BRAM_A_wrapper' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_BRAM_A_wrapper.vhd:14' bound to instance 'block_C' of component 'design_BRAM_A_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/LUDHardware.vhd:564]
+INFO: [Synth 8-3491] module 'design_BRAM_A_wrapper' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_BRAM_A_wrapper.vhd:14' bound to instance 'block_D' of component 'design_BRAM_A_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/LUDHardware.vhd:605]
+INFO: [Synth 8-3491] module 'design_BRAM_A_wrapper' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_BRAM_A_wrapper.vhd:14' bound to instance 'block_E' of component 'design_BRAM_A_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/LUDHardware.vhd:644]
+INFO: [Synth 8-3491] module 'design_BRAM_A_wrapper' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_BRAM_A_wrapper.vhd:14' bound to instance 'block_F' of component 'design_BRAM_A_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/LUDHardware.vhd:683]
+INFO: [Synth 8-3491] module 'design_BRAM_A_wrapper' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_BRAM_A_wrapper.vhd:14' bound to instance 'block_G' of component 'design_BRAM_A_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/LUDHardware.vhd:722]
+INFO: [Synth 8-3491] module 'design_BRAM_A_wrapper' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_BRAM_A_wrapper.vhd:14' bound to instance 'block_H' of component 'design_BRAM_A_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/LUDHardware.vhd:761]
+INFO: [Synth 8-3491] module 'design_MAC_wrapper' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_MAC_wrapper.vhd:14' bound to instance 'MAC_A' of component 'design_MAC_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/LUDHardware.vhd:800]
+INFO: [Synth 8-638] synthesizing module 'design_MAC_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_MAC_wrapper.vhd:35]
+INFO: [Synth 8-3491] module 'design_MAC' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_MAC.vhd:14' bound to instance 'design_MAC_i' of component 'design_MAC' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_MAC_wrapper.vhd:57]
+INFO: [Synth 8-638] synthesizing module 'design_MAC' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_MAC.vhd:39]
+INFO: [Synth 8-3491] module 'design_MAC_floating_point_0_0' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_MAC_floating_point_0_0/synth/design_MAC_floating_point_0_0.vhd:59' bound to instance 'floating_point_0' of component 'design_MAC_floating_point_0_0' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_MAC.vhd:117]
+INFO: [Synth 8-638] synthesizing module 'design_MAC_floating_point_0_0' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_MAC_floating_point_0_0/synth/design_MAC_floating_point_0_0.vhd:80]
+	Parameter C_XDEVICEFAMILY bound to: zynquplus - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 0 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 1 - type: integer 
+	Parameter C_HAS_FMS bound to: 1 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 64 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 53 - type: integer 
+	Parameter C_B_WIDTH bound to: 64 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 53 - type: integer 
+	Parameter C_C_WIDTH bound to: 64 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 53 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 64 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 53 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 20 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 2 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 0 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 2 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 1 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 1 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 1 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_7' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/ipshared/c63e/hdl/floating_point_v7_1_vh_rfs.vhd:91615' bound to instance 'U0' of component 'floating_point_v7_1_7' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_MAC_floating_point_0_0/synth/design_MAC_floating_point_0_0.vhd:234]
+INFO: [Synth 8-256] done synthesizing module 'design_MAC_floating_point_0_0' (57#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_MAC_floating_point_0_0/synth/design_MAC_floating_point_0_0.vhd:80]
+INFO: [Synth 8-256] done synthesizing module 'design_MAC' (58#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_MAC.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'design_MAC_wrapper' (59#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_MAC_wrapper.vhd:35]
+INFO: [Synth 8-3491] module 'design_MAC_wrapper' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_MAC_wrapper.vhd:14' bound to instance 'MAC_B' of component 'design_MAC_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/LUDHardware.vhd:821]
+INFO: [Synth 8-3491] module 'design_MAC_wrapper' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_MAC_wrapper.vhd:14' bound to instance 'MAC_C' of component 'design_MAC_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/LUDHardware.vhd:841]
+INFO: [Synth 8-3491] module 'design_MAC_wrapper' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_MAC_wrapper.vhd:14' bound to instance 'MAC_D' of component 'design_MAC_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/LUDHardware.vhd:861]
+INFO: [Synth 8-3491] module 'design_DIV_wrapper' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_DIV_wrapper.vhd:14' bound to instance 'DIV_A' of component 'design_DIV_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/LUDHardware.vhd:881]
+INFO: [Synth 8-638] synthesizing module 'design_DIV_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_DIV_wrapper.vhd:29]
+INFO: [Synth 8-3491] module 'design_DIV' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_DIV.vhd:14' bound to instance 'design_DIV_i' of component 'design_DIV' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_DIV_wrapper.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'design_DIV' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_DIV.vhd:33]
+INFO: [Synth 8-3491] module 'design_DIV_floating_point_0_0' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_DIV_floating_point_0_0/synth/design_DIV_floating_point_0_0.vhd:59' bound to instance 'floating_point_0' of component 'design_DIV_floating_point_0_0' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_DIV.vhd:85]
+INFO: [Synth 8-638] synthesizing module 'design_DIV_floating_point_0_0' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_DIV_floating_point_0_0/synth/design_DIV_floating_point_0_0.vhd:74]
+	Parameter C_XDEVICEFAMILY bound to: zynquplus - type: string 
+	Parameter C_HAS_ADD bound to: 0 - type: integer 
+	Parameter C_HAS_SUBTRACT bound to: 0 - type: integer 
+	Parameter C_HAS_MULTIPLY bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE bound to: 1 - type: integer 
+	Parameter C_HAS_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_COMPARE bound to: 0 - type: integer 
+	Parameter C_HAS_FIX_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FIX bound to: 0 - type: integer 
+	Parameter C_HAS_FLT_TO_FLT bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP bound to: 0 - type: integer 
+	Parameter C_HAS_RECIP_SQRT bound to: 0 - type: integer 
+	Parameter C_HAS_ABSOLUTE bound to: 0 - type: integer 
+	Parameter C_HAS_LOGARITHM bound to: 0 - type: integer 
+	Parameter C_HAS_EXPONENTIAL bound to: 0 - type: integer 
+	Parameter C_HAS_FMA bound to: 0 - type: integer 
+	Parameter C_HAS_FMS bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_A bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUMULATOR_S bound to: 0 - type: integer 
+	Parameter C_A_WIDTH bound to: 64 - type: integer 
+	Parameter C_A_FRACTION_WIDTH bound to: 53 - type: integer 
+	Parameter C_B_WIDTH bound to: 64 - type: integer 
+	Parameter C_B_FRACTION_WIDTH bound to: 53 - type: integer 
+	Parameter C_C_WIDTH bound to: 64 - type: integer 
+	Parameter C_C_FRACTION_WIDTH bound to: 53 - type: integer 
+	Parameter C_RESULT_WIDTH bound to: 64 - type: integer 
+	Parameter C_RESULT_FRACTION_WIDTH bound to: 53 - type: integer 
+	Parameter C_COMPARE_OPERATION bound to: 8 - type: integer 
+	Parameter C_LATENCY bound to: 31 - type: integer 
+	Parameter C_OPTIMIZATION bound to: 1 - type: integer 
+	Parameter C_MULT_USAGE bound to: 0 - type: integer 
+	Parameter C_BRAM_USAGE bound to: 0 - type: integer 
+	Parameter C_RATE bound to: 1 - type: integer 
+	Parameter C_ACCUM_INPUT_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_MSB bound to: 32 - type: integer 
+	Parameter C_ACCUM_LSB bound to: -31 - type: integer 
+	Parameter C_HAS_UNDERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_INVALID_OP bound to: 0 - type: integer 
+	Parameter C_HAS_DIVIDE_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACCUM_INPUT_OVERFLOW bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 0 - type: integer 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 2 - type: integer 
+	Parameter C_HAS_A_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_A_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_B bound to: 1 - type: integer 
+	Parameter C_HAS_B_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_B_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_C bound to: 0 - type: integer 
+	Parameter C_HAS_C_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_C_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_OPERATION_TLAST bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_RESULT_TLAST bound to: 0 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_A_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_A_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_B_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_B_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_C_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_C_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_OPERATION_TDATA_WIDTH bound to: 8 - type: integer 
+	Parameter C_OPERATION_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_RESULT_TDATA_WIDTH bound to: 64 - type: integer 
+	Parameter C_RESULT_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_FIXED_DATA_UNSIGNED bound to: 0 - type: integer 
+INFO: [Synth 8-3491] module 'floating_point_v7_1_7' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/ipshared/c63e/hdl/floating_point_v7_1_vh_rfs.vhd:91615' bound to instance 'U0' of component 'floating_point_v7_1_7' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_DIV_floating_point_0_0/synth/design_DIV_floating_point_0_0.vhd:220]
+INFO: [Synth 8-256] done synthesizing module 'design_DIV_floating_point_0_0' (68#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_DIV_floating_point_0_0/synth/design_DIV_floating_point_0_0.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'design_DIV' (69#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_DIV.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'design_DIV_wrapper' (70#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_DIV_wrapper.vhd:29]
+INFO: [Synth 8-3491] module 'design_DIV_wrapper' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_DIV_wrapper.vhd:14' bound to instance 'DIV_B' of component 'design_DIV_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/LUDHardware.vhd:895]
+INFO: [Synth 8-3491] module 'design_DIV_wrapper' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_DIV_wrapper.vhd:14' bound to instance 'DIV_C' of component 'design_DIV_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/LUDHardware.vhd:909]
+INFO: [Synth 8-3491] module 'design_DIV_wrapper' declared at 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/design_DIV_wrapper.vhd:14' bound to instance 'DIV_D' of component 'design_DIV_wrapper' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/LUDHardware.vhd:923]
+INFO: [Synth 8-638] synthesizing module 'MUX_AU_IN' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/MUX_AU_IN.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'MUX_AU_IN' (71#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/MUX_AU_IN.vhd:17]
+INFO: [Synth 8-638] synthesizing module 'MUX_BRAM_IN' [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/MUX_BRAM_IN.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'MUX_BRAM_IN' (72#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/MUX_BRAM_IN.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'LUDHardware' (73#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/LUDHardware.vhd:76]
+INFO: [Synth 8-256] done synthesizing module 'LUDH_TEST_WRAPPER' (74#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/hardwareTesterWrapper.vhd:97]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg3_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:415]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg28_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:440]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg29_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:441]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg30_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:442]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg31_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:443]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg32_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:444]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg33_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:445]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg34_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:446]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg35_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:447]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg36_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:448]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg37_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:449]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg38_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:450]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg39_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:451]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg40_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:452]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg41_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:453]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg42_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:454]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg43_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:455]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg75_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:487]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg76_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:488]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg77_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:489]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg78_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:490]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg79_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:491]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg80_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:492]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg81_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:493]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg82_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:494]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg83_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:495]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg84_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:496]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg85_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:497]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg86_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:498]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg87_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:499]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:541]
+WARNING: [Synth 8-3848] Net slv_reg28_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:285]
+WARNING: [Synth 8-3848] Net slv_reg29_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:286]
+WARNING: [Synth 8-3848] Net slv_reg30_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:287]
+WARNING: [Synth 8-3848] Net slv_reg31_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:288]
+WARNING: [Synth 8-3848] Net slv_reg32_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:289]
+WARNING: [Synth 8-3848] Net slv_reg33_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:290]
+WARNING: [Synth 8-3848] Net slv_reg34_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:291]
+WARNING: [Synth 8-3848] Net slv_reg35_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:292]
+WARNING: [Synth 8-3848] Net slv_reg36_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:293]
+WARNING: [Synth 8-3848] Net slv_reg37_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:294]
+WARNING: [Synth 8-3848] Net slv_reg38_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:295]
+WARNING: [Synth 8-3848] Net slv_reg39_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:296]
+WARNING: [Synth 8-3848] Net slv_reg40_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:297]
+WARNING: [Synth 8-3848] Net slv_reg41_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:298]
+WARNING: [Synth 8-3848] Net slv_reg42_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:299]
+WARNING: [Synth 8-3848] Net slv_reg43_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:300]
+WARNING: [Synth 8-3848] Net slv_reg75_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:301]
+WARNING: [Synth 8-3848] Net slv_reg76_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:302]
+WARNING: [Synth 8-3848] Net slv_reg77_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:303]
+WARNING: [Synth 8-3848] Net slv_reg78_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:304]
+WARNING: [Synth 8-3848] Net slv_reg79_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:305]
+WARNING: [Synth 8-3848] Net slv_reg80_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:306]
+WARNING: [Synth 8-3848] Net slv_reg81_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:307]
+WARNING: [Synth 8-3848] Net slv_reg82_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:308]
+WARNING: [Synth 8-3848] Net slv_reg83_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:309]
+WARNING: [Synth 8-3848] Net slv_reg84_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:310]
+WARNING: [Synth 8-3848] Net slv_reg85_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:311]
+WARNING: [Synth 8-3848] Net slv_reg86_out in module/entity myip_LUdecomposition_v2_v1_0_S00_AXI does not have driver. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:312]
+INFO: [Synth 8-256] done synthesizing module 'myip_LUdecomposition_v2_v1_0_S00_AXI' (75#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd:94]
+INFO: [Synth 8-256] done synthesizing module 'myip_LUdecomposition_v2_v1_0' (76#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ipshared/8bad/src/myip_LUdecomposition_v2_v1_0.vhd:53]
+INFO: [Synth 8-256] done synthesizing module 'design_101_myip_LUdecomposition_0_0' (77#1) [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/synth/design_101_myip_LUdecomposition_0_0.vhd:83]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized49 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized49 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized49 has unconnected port SINIT
+WARNING: [Synth 8-3331] design flt_dec_op_lat has unconnected port DEC_OP_STATE[11]
+WARNING: [Synth 8-3331] design flt_dec_op_lat has unconnected port DEC_OP_STATE[10]
+WARNING: [Synth 8-3331] design flt_dec_op_lat has unconnected port DEC_OP_STATE[9]
+WARNING: [Synth 8-3331] design flt_dec_op_lat has unconnected port DEC_OP_STATE[8]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized160 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized160 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized160 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized160 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized160 has unconnected port SINIT
+WARNING: [Synth 8-3331] design carry_chain__parameterized17 has unconnected port B[10]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized164 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized164 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized164 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized164 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized164 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized162 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized162 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized162 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized162 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized162 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized35 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized35 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized35 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized35 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized35 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized99 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized99 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized99 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized99 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized99 has unconnected port SINIT
+WARNING: [Synth 8-3331] design flt_round_bit has unconnected port NORMALIZE[1]
+WARNING: [Synth 8-3331] design flt_round_bit has unconnected port FIXED_POINT
+WARNING: [Synth 8-3331] design flt_round_bit has unconnected port FIX_MANT_SIGN
+WARNING: [Synth 8-3331] design flt_round_bit has unconnected port SIGN
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized144 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized144 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized144 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized144 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized144 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized3 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized3 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized3 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized3 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized3 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized132 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized132 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized132 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized132 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized132 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized158 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized158 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized158 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized158 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized158 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized93 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized93 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized93 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized93 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized93 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized156 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized156 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized156 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized156 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized156 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized150 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized150 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized150 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized154 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized154 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized154 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized152 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized152 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized152 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized148 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized148 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized148 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized89 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized89 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized89 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized146 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized146 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized146 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized7 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized7 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized7 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized103 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized103 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized103 has unconnected port SINIT
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized23 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized23 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized23 has unconnected port SCLR
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized23 has unconnected port SSET
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized23 has unconnected port SINIT
+WARNING: [Synth 8-3331] design special_detect__parameterized1 has unconnected port A[63]
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized111 has unconnected port CLK
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized111 has unconnected port CE
+WARNING: [Synth 8-3331] design xbip_pipe_v3_0_5_viv__parameterized111 has unconnected port SCLR
+INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:03:51 ; elapsed = 00:03:59 . Memory (MB): peak = 893.891 ; gain = 593.742
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:03:52 ; elapsed = 00:04:00 . Memory (MB): peak = 893.891 ; gain = 593.742
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:03:52 ; elapsed = 00:04:00 . Memory (MB): peak = 893.891 ; gain = 593.742
+---------------------------------------------------------------------------------
+INFO: [Netlist 29-17] Analyzing 26340 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_CTRL_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i'
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_CTRL_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_A/design_BRAM_A_i'
+WARNING: [Constraints 18-619] A clock with name 'BRAM_PORTA_0_clk' already exists, overwriting the previous clock with the same name. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:9]
+CRITICAL WARNING: [Constraints 18-1056] Clock 'BRAM_PORTB_0_clk' completely overrides clock 'BRAM_PORTA_0_clk'.
+New: create_clock -period 10.000 -name BRAM_PORTB_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:10]
+Previous: create_clock -period 10.000 -name BRAM_PORTA_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:9]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_A/design_BRAM_A_i'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_B/design_BRAM_A_i'
+CRITICAL WARNING: [Constraints 18-1056] Clock 'BRAM_PORTA_0_clk' completely overrides clock 'BRAM_PORTB_0_clk'.
+New: create_clock -period 10.000 -name BRAM_PORTA_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:9]
+Previous: create_clock -period 10.000 -name BRAM_PORTB_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:10]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+CRITICAL WARNING: [Constraints 18-1056] Clock 'BRAM_PORTB_0_clk' completely overrides clock 'BRAM_PORTA_0_clk'.
+New: create_clock -period 10.000 -name BRAM_PORTB_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:10]
+Previous: create_clock -period 10.000 -name BRAM_PORTA_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:9]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_B/design_BRAM_A_i'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_C/design_BRAM_A_i'
+CRITICAL WARNING: [Constraints 18-1056] Clock 'BRAM_PORTA_0_clk' completely overrides clock 'BRAM_PORTB_0_clk'.
+New: create_clock -period 10.000 -name BRAM_PORTA_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:9]
+Previous: create_clock -period 10.000 -name BRAM_PORTB_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:10]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+CRITICAL WARNING: [Constraints 18-1056] Clock 'BRAM_PORTB_0_clk' completely overrides clock 'BRAM_PORTA_0_clk'.
+New: create_clock -period 10.000 -name BRAM_PORTB_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:10]
+Previous: create_clock -period 10.000 -name BRAM_PORTA_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:9]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_C/design_BRAM_A_i'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_D/design_BRAM_A_i'
+CRITICAL WARNING: [Constraints 18-1056] Clock 'BRAM_PORTA_0_clk' completely overrides clock 'BRAM_PORTB_0_clk'.
+New: create_clock -period 10.000 -name BRAM_PORTA_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:9]
+Previous: create_clock -period 10.000 -name BRAM_PORTB_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:10]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+CRITICAL WARNING: [Constraints 18-1056] Clock 'BRAM_PORTB_0_clk' completely overrides clock 'BRAM_PORTA_0_clk'.
+New: create_clock -period 10.000 -name BRAM_PORTB_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:10]
+Previous: create_clock -period 10.000 -name BRAM_PORTA_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:9]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_D/design_BRAM_A_i'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_E/design_BRAM_A_i'
+CRITICAL WARNING: [Constraints 18-1056] Clock 'BRAM_PORTA_0_clk' completely overrides clock 'BRAM_PORTB_0_clk'.
+New: create_clock -period 10.000 -name BRAM_PORTA_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:9]
+Previous: create_clock -period 10.000 -name BRAM_PORTB_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:10]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+CRITICAL WARNING: [Constraints 18-1056] Clock 'BRAM_PORTB_0_clk' completely overrides clock 'BRAM_PORTA_0_clk'.
+New: create_clock -period 10.000 -name BRAM_PORTB_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:10]
+Previous: create_clock -period 10.000 -name BRAM_PORTA_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:9]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_E/design_BRAM_A_i'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_F/design_BRAM_A_i'
+CRITICAL WARNING: [Constraints 18-1056] Clock 'BRAM_PORTA_0_clk' completely overrides clock 'BRAM_PORTB_0_clk'.
+New: create_clock -period 10.000 -name BRAM_PORTA_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:9]
+Previous: create_clock -period 10.000 -name BRAM_PORTB_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:10]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+CRITICAL WARNING: [Constraints 18-1056] Clock 'BRAM_PORTB_0_clk' completely overrides clock 'BRAM_PORTA_0_clk'.
+New: create_clock -period 10.000 -name BRAM_PORTB_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:10]
+Previous: create_clock -period 10.000 -name BRAM_PORTA_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:9]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_F/design_BRAM_A_i'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_G/design_BRAM_A_i'
+CRITICAL WARNING: [Constraints 18-1056] Clock 'BRAM_PORTA_0_clk' completely overrides clock 'BRAM_PORTB_0_clk'.
+New: create_clock -period 10.000 -name BRAM_PORTA_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:9]
+Previous: create_clock -period 10.000 -name BRAM_PORTB_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:10]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+CRITICAL WARNING: [Constraints 18-1056] Clock 'BRAM_PORTB_0_clk' completely overrides clock 'BRAM_PORTA_0_clk'.
+New: create_clock -period 10.000 -name BRAM_PORTB_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:10]
+Previous: create_clock -period 10.000 -name BRAM_PORTA_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:9]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_G/design_BRAM_A_i'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_H/design_BRAM_A_i'
+CRITICAL WARNING: [Constraints 18-1056] Clock 'BRAM_PORTA_0_clk' completely overrides clock 'BRAM_PORTB_0_clk'.
+New: create_clock -period 10.000 -name BRAM_PORTA_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:9]
+Previous: create_clock -period 10.000 -name BRAM_PORTB_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:10]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+CRITICAL WARNING: [Constraints 18-1056] Clock 'BRAM_PORTB_0_clk' completely overrides clock 'BRAM_PORTA_0_clk'.
+New: create_clock -period 10.000 -name BRAM_PORTB_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:10]
+Previous: create_clock -period 10.000 -name BRAM_PORTA_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:9]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_H/design_BRAM_A_i'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_DIV_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_A/design_DIV_i'
+CRITICAL WARNING: [Constraints 18-1056] Clock 'aclk_0' completely overrides clock 'BRAM_PORTB_0_clk'.
+New: create_clock -period 100.000 -name aclk_0 [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_DIV_ooc.xdc:9]
+Previous: create_clock -period 10.000 -name BRAM_PORTB_0_clk [get_ports clk_1x], [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_BRAM_A_ooc.xdc:10]
+Resolution: Review the constraint files and remove the redundant clock definition(s). If the clock constraints are not saved in a file, you can first save the constraints to an XDC file and reload the design once the constraints have been corrected.
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_DIV_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_A/design_DIV_i'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_DIV_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_B/design_DIV_i'
+WARNING: [Constraints 18-619] A clock with name 'aclk_0' already exists, overwriting the previous clock with the same name. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_DIV_ooc.xdc:9]
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_DIV_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_B/design_DIV_i'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_DIV_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_C/design_DIV_i'
+WARNING: [Constraints 18-619] A clock with name 'aclk_0' already exists, overwriting the previous clock with the same name. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_DIV_ooc.xdc:9]
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_DIV_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_C/design_DIV_i'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_DIV_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_D/design_DIV_i'
+WARNING: [Constraints 18-619] A clock with name 'aclk_0' already exists, overwriting the previous clock with the same name. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_DIV_ooc.xdc:9]
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_DIV_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_D/design_DIV_i'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_MAC_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i'
+WARNING: [Constraints 18-619] A clock with name 'aclk_0' already exists, overwriting the previous clock with the same name. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_MAC_ooc.xdc:9]
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_MAC_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_MAC_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i'
+WARNING: [Constraints 18-619] A clock with name 'aclk_0' already exists, overwriting the previous clock with the same name. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_MAC_ooc.xdc:9]
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_MAC_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_MAC_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i'
+WARNING: [Constraints 18-619] A clock with name 'aclk_0' already exists, overwriting the previous clock with the same name. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_MAC_ooc.xdc:9]
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_MAC_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_MAC_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i'
+WARNING: [Constraints 18-619] A clock with name 'aclk_0' already exists, overwriting the previous clock with the same name. [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_MAC_ooc.xdc:9]
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/design_MAC_ooc.xdc] for cell 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i'
+Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/Connections.xdc] for cell 'U0'
+Finished Parsing XDC File [c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.srcs/sources_1/bd/design_101/ip/design_101_myip_LUdecomposition_0_0/src/Connections.xdc] for cell 'U0'
+Parsing XDC File [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.runs/design_101_myip_LUdecomposition_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.runs/design_101_myip_LUdecomposition_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.131 . Memory (MB): peak = 2091.699 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 400 instances were transformed.
+  DSP48E1 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD_DATA, DSP_PREADD): 12 instances
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD_DATA, DSP_PREADD): 40 instances
+  FDE => FDRE: 348 instances
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.160 . Memory (MB): peak = 2134.176 ; gain = 0.449
+Constraint Validation Runtime : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 2135.023 ; gain = 43.324
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:05:03 ; elapsed = 00:05:12 . Memory (MB): peak = 2135.023 ; gain = 1834.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xczu7ev-ffvc1156-2-e
+INFO: [Synth 8-6742] Reading net delay rules and data
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:05:03 ; elapsed = 00:05:12 . Memory (MB): peak = 2135.023 ; gain = 1834.875
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property DONT_TOUCH = true for U0. (constraint file  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.runs/design_101_myip_LUdecomposition_0_0_synth_1/dont_touch.xdc, line 25).
+Applied set_property DONT_TOUCH = true for U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_A/design_DIV_i/floating_point_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_B/design_DIV_i/floating_point_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_C/design_DIV_i/floating_point_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/DIV_D/design_DIV_i/floating_point_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_A/design_BRAM_A_i/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_B/design_BRAM_A_i/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_C/design_BRAM_A_i/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_D/design_BRAM_A_i/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_E/design_BRAM_A_i/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_F/design_BRAM_A_i/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_G/design_BRAM_A_i/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_H/design_BRAM_A_i/blk_mem_gen_0. (constraint file  auto generated constraint, line ).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:05:04 ; elapsed = 00:05:13 . Memory (MB): peak = 2135.023 ; gain = 1834.875
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'pr_state_reg' in module 'LUDH_Tester'
+INFO: [Synth 8-5544] ROM "test_completed" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "run_test" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "reset_counter_reg" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nxt_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "nxt_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lrg_almost_over" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lrg_almost_over" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "det_state" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "flow_sel_pre_op" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "c_nan" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "c_inf" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "c_zero" won't be mapped to Block RAM because address size (2) smaller than threshold (5)
+INFO: [Synth 8-5545] ROM "chunk_is_zero_ip" won't be mapped to RAM because address size (36) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "chunk_is_zero_ip" won't be mapped to RAM because address size (36) is larger than maximum supported(25)
+INFO: [Synth 8-5546] ROM "exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5544] ROM "state_det" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_det" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "state_int_up" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 iSTATE0 |                              001 |                               00
+                  iSTATE |                              010 |                               01
+                 iSTATE1 |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'pr_state_reg' using encoding 'one-hot' in module 'LUDH_Tester'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:05:27 ; elapsed = 00:05:39 . Memory (MB): peak = 2135.023 ; gain = 1834.875
+---------------------------------------------------------------------------------
+INFO: [Synth 8-223] decloning instance 'design_MAC_floating_point_0_0:/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized12) to 'design_MAC_floating_point_0_0:/U0/i_synth/DELAY_ACCUM_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'design_MAC_floating_point_0_0:/U0/i_synth/DELAY_DIVIDE_BY_ZERO' (delay__parameterized12) to 'design_MAC_floating_point_0_0:/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized12) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ROUND/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'design_DIV_floating_point_0_0:/U0/i_synth/DELAY_ACCUM_OVERFLOW' (delay__parameterized12) to 'design_DIV_floating_point_0_0:/U0/i_synth/DELAY_ACCUM_INPUT_OVERFLOW'
+INFO: [Synth 8-223] decloning instance 'design_DIV_floating_point_0_0:/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXTRA_LSB_BIT_DEL' (delay__parameterized12) to 'design_DIV_floating_point_0_0:/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXTRA_LSB_RND1_DEL'
+INFO: [Synth 8-223] decloning instance 'design_DIV_floating_point_0_0:/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_INC_DELAY' (delay__parameterized12) to 'design_DIV_floating_point_0_0:/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_INC_RND1_DELAY'
+INFO: [Synth 8-223] decloning instance 'design_DIV_floating_point_0_0:/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_IN_DEL' (delay__parameterized91) to 'design_DIV_floating_point_0_0:/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_RND_DEL'
+INFO: [Synth 8-223] decloning instance 'design_DIV_floating_point_0_0:/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_IN_DELAY.EXP_OFF_OP_DEL' (delay__parameterized91) to 'design_DIV_floating_point_0_0:/U0/i_synth/DIV_OP.SPD.OP/ROUND/EXP_RND2_DELAY.EXP_OFF_RND_DEL'
+
+Report RTL Partitions: 
++------+------------------------------------------+------------+----------+
+|      |RTL Partition                             |Replication |Instances |
++------+------------------------------------------+------------+----------+
+|1     |design_MAC_floating_point_0_0             |           4|      9613|
+|2     |design_DIV_floating_point_0_0             |           4|     20394|
+|3     |LUDHardware__GCB0                         |           1|     34041|
+|4     |LUDHardware__GCB1                         |           1|     22007|
+|5     |LUDH_Tester                               |           1|      1627|
+|6     |myip_LUdecomposition_v2_v1_0_S00_AXI__GC0 |           1|     32713|
++------+------------------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 1728 (col length:144)
+BRAMs: 624 (col length: RAMB18 144 RAMB36 72)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5546] ROM "conv_exp.downsize_exp/COND_DET/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "conv_exp.downsize_exp/COND_DET/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "lrg_almost_over" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FMA_OP.OP/special_detect/detector_a/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FMA_OP.OP/special_detect/detector_a/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FMA_OP.OP/special_detect/detector_b/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FMA_OP.OP/special_detect/detector_b/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FMA_OP.OP/special_detect/detector_c/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "FMA_OP.OP/special_detect/detector_c/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_A/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_A/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_B/exp_all_one_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/COND_DET_B/exp_all_zero_ip" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "DIV_OP.SPD.OP/EXP/flow_sig" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_MAC_floating_point_0_0:/U0/i_synth/\FMA_OP.OP/mul/MULT /\gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[1].use_subtract_delay.subtract_delay/d1.dout_i_reg[0] )
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[1].bppDSP48[1].use_subtract_delay.subtract_delay/d1.dout_i_reg[0]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[1].use_subtract_delay.subtract_delay/d1.dout_i_reg[0]'
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/SUBTRACT_PREADD_DEL/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/SUB_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/ZERO_SMALLEST_DEL/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/aligner.zero_smallest_i_delay/i_pipe/opt_has_pipe.first_q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/SUBTRACT_PREADD_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][0]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/SUB_DELAY/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][0]'
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/ZERO_SMALLEST_DEL/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][0]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/aligner.zero_smallest_i_delay/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][0]'
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/EXT_LRG_DSP_ADD2_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/EXT_LRG_DSP_ADD2_DELAY/i_pipe/opt_has_pipe.first_q_reg[95]'
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/EXT_LRG_DSP_ADD2_DELAY/i_pipe/opt_has_pipe.first_q_reg[1]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/EXT_LRG_DSP_ADD2_DELAY/i_pipe/opt_has_pipe.first_q_reg[95]'
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/EXT_LRG_DSP_ADD2_DELAY/i_pipe/opt_has_pipe.first_q_reg[95]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/LOGIC_ADD.DIST_1_ADD2_DEL/i_pipe/opt_has_pipe.first_q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/EXT_LRG_DSP_ADD2_DELAY/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][0]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/EXT_LRG_DSP_ADD2_DELAY/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][95]'
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/EXT_LRG_DSP_ADD2_DELAY/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][1]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/EXT_LRG_DSP_ADD2_DELAY/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][95]'
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/aligner.ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[1].SKEW_DIST_DEL.DEL_DIST/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/aligner.ALIGN_SHIFT/ALIGN_SHIFT/MUX_LOOP[2].SKEW_DIST_DEL.DEL_DIST/i_pipe/opt_has_pipe.first_q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/aligner.ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[1].SKEW_DIST_DEL.DEL_DIST/i_pipe/opt_has_pipe.first_q_reg[1]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/aligner.ALIGN_SHIFT/ALIGN_SHIFT/MUX_LOOP[1].SKEW_DIST_DEL.DEL_DIST/i_pipe/opt_has_pipe.first_q_reg[0]'
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/aligner.ALIGN_SHIFT/ALIGN_Z_D/MUX_LOOP[2].SKEW_DIST_DEL.DEL_DIST/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/aligner.ALIGN_SHIFT/ALIGN_SHIFT/MUX_LOOP[1].SKEW_DIST_DEL.DEL_DIST/i_pipe/opt_has_pipe.first_q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/EXT_LRG_DSP_ADD2_DELAY/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][0]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/EXT_LRG_DSP_ADD2_DELAY/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][1]'
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/EXT_LRG_DSP_ADD2_DELAY/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][1]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/EXT_LRG_DSP_ADD2_DELAY/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][95]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_MAC_floating_point_0_0:/U0/i_synth/\FMA_OP.OP/addsub/add /ALIGN_BLK/\FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/LOGIC_ADD.DIST_1_ADD2_DEL/i_pipe/opt_has_pipe.first_q_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_MAC_floating_point_0_0:/U0/i_synth/\FMA_OP.OP/addsub/add /NORM/\ROUND/EXP_INC_DELAY/i_pipe/opt_has_pipe.first_q_reg[0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_MAC_floating_point_0_0:/U0/i_synth/\FMA_OP.OP/mul/MULT /\gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[1].use_subtract_delay.subtract_delay/d1.dout_i_reg[0] )
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[2].use_subtract_delay.subtract_delay/d1.dout_i_reg[0]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[1].use_subtract_delay.subtract_delay/d1.dout_i_reg[0]'
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/LOGIC_ADD.DIST_1_ADD2_DEL/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/EXT_LRG_DSP_ADD2_DELAY/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][95]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_MAC_floating_point_0_0:/U0/i_synth/\FMA_OP.OP/addsub/add /ALIGN_BLK/\FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/EXT_LRG_DSP_ADD2_DELAY/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][95] )
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/EXT_LRG_DSP_ADD2_DELAY/i_pipe/opt_has_pipe.i_pipe[3].pipe_reg[3][95]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/EXT_LRG_DSP_ADD2_DELAY/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][95]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_MAC_floating_point_0_0:/U0/i_synth/\FMA_OP.OP/mul/MULT /\gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[1].use_subtract_delay.subtract_delay/d1.dout_i_reg[0] )
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[2].bppDSP48[1].use_subtract_delay.subtract_delay/d1.dout_i_reg[0]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[1].use_subtract_delay.subtract_delay/d1.dout_i_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_MAC_floating_point_0_0:/U0/i_synth/\FMA_OP.OP/addsub/add /ALIGN_BLK/\FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/EXT_LRG_DSP_ADD2_DELAY/i_pipe/opt_has_pipe.i_pipe[2].pipe_reg[2][95] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_MAC_floating_point_0_0:/U0/i_synth/\FMA_OP.OP/mul/MULT /\gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[1].use_subtract_delay.subtract_delay/d1.dout_i_reg[0] )
+INFO: [Synth 8-3886] merging instance 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[2].bppDSP48[2].use_subtract_delay.subtract_delay/d1.dout_i_reg[0]' (FDE) to 'design_MAC_floating_point_0_0:/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[1].use_subtract_delay.subtract_delay/d1.dout_i_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (design_MAC_floating_point_0_0:/U0/i_synth/\FMA_OP.OP/mul/MULT /\gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[1].use_subtract_delay.subtract_delay/d1.dout_i_reg[0] )
+INFO: [Synth 8-3886] merging instance 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_insti_2/axi_rresp_reg[0]' (FDRE) to 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_insti_2/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/myip_LUdecomposition_v2_v1_0_S00_AXI_insti_2/\axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_insti_2/axi_bresp_reg[0]' (FDRE) to 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_insti_2/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (U0/myip_LUdecomposition_v2_v1_0_S00_AXI_insti_2/\axi_bresp_reg[1] )
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:06:57 ; elapsed = 00:07:12 . Memory (MB): peak = 2193.992 ; gain = 1893.844
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------------------------------+------------+----------+
+|      |RTL Partition                             |Replication |Instances |
++------+------------------------------------------+------------+----------+
+|1     |design_MAC_floating_point_0_0             |           4|      8262|
+|2     |design_DIV_floating_point_0_0             |           4|     16515|
+|3     |LUDHardware__GCB0                         |           1|     34311|
+|4     |LUDHardware__GCB1                         |           1|     23409|
+|5     |LUDH_Tester                               |           1|      1594|
+|6     |myip_LUdecomposition_v2_v1_0_S00_AXI__GC0 |           1|      7738|
++------+------------------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-565] redefining clock 'BRAM_PORTA_0_clk'
+WARNING: [Synth 8-565] redefining clock 'BRAM_PORTA_0_clk'
+WARNING: [Synth 8-565] redefining clock 'BRAM_PORTB_0_clk'
+WARNING: [Synth 8-565] redefining clock 'BRAM_PORTA_0_clk'
+WARNING: [Synth 8-565] redefining clock 'BRAM_PORTB_0_clk'
+WARNING: [Synth 8-565] redefining clock 'BRAM_PORTA_0_clk'
+WARNING: [Synth 8-565] redefining clock 'BRAM_PORTB_0_clk'
+WARNING: [Synth 8-565] redefining clock 'BRAM_PORTA_0_clk'
+WARNING: [Synth 8-565] redefining clock 'BRAM_PORTB_0_clk'
+WARNING: [Synth 8-565] redefining clock 'BRAM_PORTA_0_clk'
+WARNING: [Synth 8-565] redefining clock 'BRAM_PORTB_0_clk'
+WARNING: [Synth 8-565] redefining clock 'BRAM_PORTA_0_clk'
+WARNING: [Synth 8-565] redefining clock 'BRAM_PORTB_0_clk'
+WARNING: [Synth 8-565] redefining clock 'BRAM_PORTA_0_clk'
+WARNING: [Synth 8-565] redefining clock 'BRAM_PORTB_0_clk'
+WARNING: [Synth 8-565] redefining clock 'aclk_0'
+WARNING: [Synth 8-565] redefining clock 'aclk_0'
+WARNING: [Synth 8-565] redefining clock 'aclk_0'
+WARNING: [Synth 8-565] redefining clock 'aclk_0'
+WARNING: [Synth 8-565] redefining clock 'aclk_0'
+WARNING: [Synth 8-565] redefining clock 'aclk_0'
+WARNING: [Synth 8-565] redefining clock 'aclk_0'
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:07:17 ; elapsed = 00:07:34 . Memory (MB): peak = 2218.133 ; gain = 1917.984
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:07:27 ; elapsed = 00:07:44 . Memory (MB): peak = 2257.777 ; gain = 1957.629
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++------+------------------------------------------+------------+----------+
+|      |RTL Partition                             |Replication |Instances |
++------+------------------------------------------+------------+----------+
+|1     |design_MAC_floating_point_0_0             |           4|      8332|
+|2     |design_DIV_floating_point_0_0             |           4|     16515|
+|3     |LUDHardware__GCB0                         |           1|     34311|
+|4     |LUDHardware__GCB1                         |           1|     23409|
+|5     |LUDH_Tester                               |           1|      1594|
+|6     |myip_LUdecomposition_v2_v1_0_S00_AXI__GC0 |           1|      7738|
++------+------------------------------------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-3886] merging instance 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ADD_MANT_DELAY_2/i_pipe/opt_has_pipe.first_q_reg[108]' (FDE) to 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/EXP/NORMAL_NORM_DIST.ADD_MANT_DELAY/i_pipe/opt_has_pipe.first_q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/EXP/NORMAL_NORM_DIST.ADD_MANT_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ADD_MANT_DELAY_2/i_pipe/opt_has_pipe.first_q_reg[107]'
+INFO: [Synth 8-3886] merging instance 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ADD_MANT_DELAY_2/i_pipe/opt_has_pipe.first_q_reg[108]' (FDE) to 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/EXP/NORMAL_NORM_DIST.ADD_MANT_DELAY/i_pipe/opt_has_pipe.first_q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/EXP/NORMAL_NORM_DIST.ADD_MANT_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ADD_MANT_DELAY_2/i_pipe/opt_has_pipe.first_q_reg[107]'
+INFO: [Synth 8-3886] merging instance 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ADD_MANT_DELAY_2/i_pipe/opt_has_pipe.first_q_reg[108]' (FDE) to 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/EXP/NORMAL_NORM_DIST.ADD_MANT_DELAY/i_pipe/opt_has_pipe.first_q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/EXP/NORMAL_NORM_DIST.ADD_MANT_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ADD_MANT_DELAY_2/i_pipe/opt_has_pipe.first_q_reg[107]'
+INFO: [Synth 8-3886] merging instance 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ADD_MANT_DELAY_2/i_pipe/opt_has_pipe.first_q_reg[108]' (FDE) to 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/EXP/NORMAL_NORM_DIST.ADD_MANT_DELAY/i_pipe/opt_has_pipe.first_q_reg[1]'
+INFO: [Synth 8-3886] merging instance 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/EXP/NORMAL_NORM_DIST.ADD_MANT_DELAY/i_pipe/opt_has_pipe.first_q_reg[0]' (FDE) to 'U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ADD_MANT_DELAY_2/i_pipe/opt_has_pipe.first_q_reg[107]'
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:08:05 ; elapsed = 00:08:23 . Memory (MB): peak = 2352.074 ; gain = 2051.926
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:08:15 ; elapsed = 00:08:33 . Memory (MB): peak = 2353.121 ; gain = 2052.973
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:08:16 ; elapsed = 00:08:34 . Memory (MB): peak = 2353.121 ; gain = 2052.973
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:08:33 ; elapsed = 00:08:50 . Memory (MB): peak = 2423.367 ; gain = 2123.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:08:55 ; elapsed = 00:09:12 . Memory (MB): peak = 2423.367 ; gain = 2123.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:08:57 ; elapsed = 00:09:14 . Memory (MB): peak = 2423.367 ; gain = 2123.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:08:58 ; elapsed = 00:09:15 . Memory (MB): peak = 2423.367 ; gain = 2123.219
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------------------+------+
+|      |Cell              |Count |
++------+------------------+------+
+|1     |CARRY8            |    72|
+|2     |DSP48E1           |    12|
+|3     |DSP_ALU           |     4|
+|4     |DSP_ALU_1         |     8|
+|5     |DSP_ALU_2         |    20|
+|6     |DSP_ALU_3         |     8|
+|7     |DSP_A_B_DATA      |     4|
+|8     |DSP_A_B_DATA_1    |     4|
+|9     |DSP_A_B_DATA_2    |     4|
+|10    |DSP_A_B_DATA_3    |    12|
+|11    |DSP_A_B_DATA_4    |     4|
+|12    |DSP_A_B_DATA_5    |     4|
+|13    |DSP_A_B_DATA_6    |     8|
+|14    |DSP_C_DATA        |    40|
+|15    |DSP_MULTIPLIER    |    32|
+|16    |DSP_MULTIPLIER_1  |     8|
+|17    |DSP_M_DATA        |    12|
+|18    |DSP_M_DATA_1      |    28|
+|19    |DSP_OUTPUT        |    24|
+|20    |DSP_OUTPUT_1      |    16|
+|21    |DSP_PREADD        |    40|
+|22    |DSP_PREADD_DATA   |    32|
+|23    |DSP_PREADD_DATA_1 |     8|
+|24    |LUT1              |   122|
+|25    |LUT2              |  3842|
+|26    |LUT3              | 14949|
+|27    |LUT4              |  3061|
+|28    |LUT5              |  1709|
+|29    |LUT6              | 19343|
+|30    |MUXCY             | 13304|
+|31    |MUXF7             |  5680|
+|32    |MUXF8             |   264|
+|33    |RAMB36E2          |    40|
+|34    |RAMB36E2_1        |    16|
+|35    |SRL16E            |  1040|
+|36    |SRLC32E           |   696|
+|37    |XORCY             | 12196|
+|38    |FDCE              |    12|
+|39    |FDE               |   348|
+|40    |FDRE              | 21067|
+|41    |FDSE              |    27|
++------+------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:08:58 ; elapsed = 00:09:15 . Memory (MB): peak = 2423.367 ; gain = 2123.219
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 28 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:04:01 ; elapsed = 00:08:10 . Memory (MB): peak = 2423.367 ; gain = 882.086
+Synthesis Optimization Complete : Time (s): cpu = 00:08:58 ; elapsed = 00:09:15 . Memory (MB): peak = 2423.367 ; gain = 2123.219
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 31916 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 2 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_A/design_BRAM_A_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_A/design_BRAM_A_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_B/design_BRAM_A_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_B/design_BRAM_A_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_C/design_BRAM_A_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_C/design_BRAM_A_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_D/design_BRAM_A_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_D/design_BRAM_A_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_E/design_BRAM_A_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_E/design_BRAM_A_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_F/design_BRAM_A_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_F/design_BRAM_A_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_G/design_BRAM_A_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_G/design_BRAM_A_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_H/design_BRAM_A_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/block_H/design_BRAM_A_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.TRUE_DP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[10].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[11].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[12].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[13].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[14].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[15].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[16].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[17].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[18].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[19].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[1].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[20].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[21].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[22].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[23].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[24].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[25].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[26].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[27].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[28].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[29].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[2].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[30].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[31].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[32].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[33].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[34].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[35].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[36].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[37].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[38].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[39].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[3].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[4].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[5].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[6].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[7].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[8].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+INFO: [Opt 31-422] The CLOCK_DOMAINS attribute on the BRAM cell U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/U0/inst_blk_mem_gen/gnbram.gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[9].ram.r/prim_noinit.ram/DEVICE_8SERIES.NO_BMM_INFO.SP.SIMPLE_PRIM36.ram has been changed from INDEPENDENT to COMMON to match the clocking topology used for the BRAM.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.059 . Memory (MB): peak = 2806.730 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2184 instances were transformed.
+  (CARRY4) => CARRY8: 1784 instances
+  DSP48E1 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD_DATA, DSP_PREADD): 12 instances
+  DSP48E2 => DSP48E2 (DSP_ALU, DSP_A_B_DATA, DSP_C_DATA, DSP_MULTIPLIER, DSP_M_DATA, DSP_OUTPUT, DSP_PREADD_DATA, DSP_PREADD): 40 instances
+  FDE => FDRE: 348 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+248 Infos, 190 Warnings, 16 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:10:50 ; elapsed = 00:11:09 . Memory (MB): peak = 2806.730 ; gain = 2506.582
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.054 . Memory (MB): peak = 2806.730 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.runs/design_101_myip_LUdecomposition_0_0_synth_1/design_101_myip_LUdecomposition_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:45 ; elapsed = 00:00:25 . Memory (MB): peak = 2806.730 ; gain = 0.000
+write_verilog: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2812.125 ; gain = 5.395
+write_vhdl: Time (s): cpu = 00:01:20 ; elapsed = 00:01:21 . Memory (MB): peak = 2812.125 ; gain = 0.000
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_101_myip_LUdecomposition_0_0, cache-ID = 1c54da1bea0ecac0
+INFO: [Coretcl 2-1174] Renamed 2054 cell refs.
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.063 . Memory (MB): peak = 2812.125 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_4_test/LUD_v3_4_test.runs/design_101_myip_LUdecomposition_0_0_synth_1/design_101_myip_LUdecomposition_0_0.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:54 ; elapsed = 00:00:31 . Memory (MB): peak = 2812.125 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file design_101_myip_LUdecomposition_0_0_utilization_synth.rpt -pb design_101_myip_LUdecomposition_0_0_utilization_synth.pb
+write_verilog: Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 2812.406 ; gain = 0.281
+write_vhdl: Time (s): cpu = 00:02:14 ; elapsed = 00:02:15 . Memory (MB): peak = 2812.406 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Thu May  7 11:40:32 2020...

@@ -1,0 +1,360 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu May  7 11:47:49 2020
+| Host         : ANURAGCHOUDAFBF running 64-bit major release  (build 9200)
+| Command      : report_drc -file design_101_wrapper_drc_opted.rpt -pb design_101_wrapper_drc_opted.pb -rpx design_101_wrapper_drc_opted.rpx
+| Design       : design_101_wrapper
+| Device       : xczu7ev-ffvc1156-2-e
+| Speed File   : -2
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 64
++----------+----------+---------------------------------------------------------------------+------------+
+| Rule     | Severity | Description                                                         | Violations |
++----------+----------+---------------------------------------------------------------------+------------+
+| DPIP-2   | Warning  | Input pipelining                                                    | 20         |
+| DPOP-3   | Warning  | PREG Output pipelining                                              | 16         |
+| DPOP-4   | Warning  | MREG Output pipelining                                              | 4          |
+| AVAL-155 | Advisory | enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND | 12         |
+| AVAL-156 | Advisory | enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND    | 12         |
++----------+----------+---------------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+DPIP-2#1 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#2 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#3 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#4 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2 input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#5 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2 input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#6 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#7 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#8 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#9 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2 input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#10 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2 input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#11 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#12 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#13 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#14 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2 input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#15 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2 input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#16 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#17 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#18 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP/C[47:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#19 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2 input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2/A[29:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPIP-2#20 Warning
+Input pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2 input design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2/B[17:0] is not pipelined. Pipelining DSP48 input will improve performance.
+Related violations: <none>
+
+DPOP-3#1 Warning
+PREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP output design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#2 Warning
+PREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2 output design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#3 Warning
+PREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[2].use_dsp.use_dsp48e2.iDSP48E2 output design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[2].use_dsp.use_dsp48e2.iDSP48E2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#4 Warning
+PREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[2].bppDSP48[2].use_dsp.use_dsp48e2.iDSP48E2 output design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[2].bppDSP48[2].use_dsp.use_dsp48e2.iDSP48E2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#5 Warning
+PREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP output design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#6 Warning
+PREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2 output design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#7 Warning
+PREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[2].use_dsp.use_dsp48e2.iDSP48E2 output design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[2].use_dsp.use_dsp48e2.iDSP48E2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#8 Warning
+PREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[2].bppDSP48[2].use_dsp.use_dsp48e2.iDSP48E2 output design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[2].bppDSP48[2].use_dsp.use_dsp48e2.iDSP48E2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#9 Warning
+PREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP output design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#10 Warning
+PREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2 output design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#11 Warning
+PREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[2].use_dsp.use_dsp48e2.iDSP48E2 output design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[2].use_dsp.use_dsp48e2.iDSP48E2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#12 Warning
+PREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[2].bppDSP48[2].use_dsp.use_dsp48e2.iDSP48E2 output design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[2].bppDSP48[2].use_dsp.use_dsp48e2.iDSP48E2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#13 Warning
+PREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP output design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#14 Warning
+PREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2 output design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[0].use_dsp.use_dsp48e2.iDSP48E2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#15 Warning
+PREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[2].use_dsp.use_dsp48e2.iDSP48E2 output design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[0].bppDSP48[2].use_dsp.use_dsp48e2.iDSP48E2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-3#16 Warning
+PREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[2].bppDSP48[2].use_dsp.use_dsp48e2.iDSP48E2 output design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.appDSP48[2].bppDSP48[2].use_dsp.use_dsp48e2.iDSP48E2/P[47:0] is not pipelined (PREG=0). Pipelining the DSP48 output will improve performance and often saves power so it is suggested whenever possible to fully pipeline this function.  If this DSP48 function was inferred, it is suggested to describe an additional register stage after this function.  If the DSP48 was instantiated in the design, it is suggested to set the PREG attribute to 1.
+Related violations: <none>
+
+DPOP-4#1 Warning
+MREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.extra_dsp.use_dsp.use_dsp48e2.iDSP48E2 multiplier stage design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.extra_dsp.use_dsp.use_dsp48e2.iDSP48E2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#2 Warning
+MREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.extra_dsp.use_dsp.use_dsp48e2.iDSP48E2 multiplier stage design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.extra_dsp.use_dsp.use_dsp48e2.iDSP48E2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#3 Warning
+MREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.extra_dsp.use_dsp.use_dsp48e2.iDSP48E2 multiplier stage design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.extra_dsp.use_dsp.use_dsp48e2.iDSP48E2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+DPOP-4#4 Warning
+MREG Output pipelining  
+DSP design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.extra_dsp.use_dsp.use_dsp48e2.iDSP48E2 multiplier stage design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/mul/MULT/gDSP.gDSP_only.iDSP/use_prim.extra_dsp.use_dsp.use_dsp48e2.iDSP48E2/P[47:0] is not pipelined (MREG=0). Pipelining the multiplier function will improve performance and will save significant power so it is suggested whenever possible to fully pipeline this function.  If this multiplier was inferred, it is suggested to describe an additional register stage after this function.  If there is no registered adder/accumulator following the multiply function, two pipeline stages are suggested to allow both the MREG and PREG registers to be used.  If the DSP48 was instantiated in the design, it is suggested to set both the MREG and PREG attributes to 1 when performing multiply functions.
+Related violations: <none>
+
+AVAL-155#1 Advisory
+enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_HIGH/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-155#2 Advisory
+enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-155#3 Advisory
+enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-155#4 Advisory
+enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_HIGH/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-155#5 Advisory
+enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-155#6 Advisory
+enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-155#7 Advisory
+enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_HIGH/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-155#8 Advisory
+enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-155#9 Advisory
+enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-155#10 Advisory
+enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_HIGH/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-155#11 Advisory
+enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-155#12 Advisory
+enum_AMULTSEL_BMULTSEL_enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E2 is not using the D port (AMULTSEL = A and BMULTSEL = B). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-156#1 Advisory
+enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_HIGH/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-156#2 Advisory
+enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-156#3 Advisory
+enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-156#4 Advisory
+enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_HIGH/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-156#5 Advisory
+enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-156#6 Advisory
+enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-156#7 Advisory
+enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_HIGH/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-156#8 Advisory
+enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-156#9 Advisory
+enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-156#10 Advisory
+enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_HIGH/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-156#11 Advisory
+enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/DSP_ADD.two_dsp.FRAC_ADDSUB/DSP48E1_ADD.DSP48E1_ADD_LOW/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+AVAL-156#12 Advisory
+enum_USE_MULT_NONE__enum_DREG_ADREG_0_connects_CED_CEAD_RSTD_GND  
+design_101_i/myip_LUdecomposition_0/U0/myip_LUdecomposition_v2_v1_0_S00_AXI_inst/main_entity/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/FMA_OP.OP/addsub/add/NORM/ROUND/DSP48_E1.DSP48E1_ADD.DSP48E1_ADD/DSP: DSP48E2 is not using the Multiplier (USE_MULT = NONE). For improved power characteristics, set DREG and ADREG to '1', tie CED, CEAD, and RSTD to logic '0'.
+Related violations: <none>
+
+

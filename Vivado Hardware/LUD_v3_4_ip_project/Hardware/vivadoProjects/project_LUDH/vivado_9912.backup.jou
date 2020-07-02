@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Jun 29 13:37:47 2020
+# Process ID: 9912
+# Current directory: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4428 C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\New_scheduler_implementation\LUD_v3_4_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.xpr
+# Log file: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/vivado.log
+# Journal file: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.xpr
+launch_simulation
+source simTester_verilog.tcl
+run all
+open_bd_design {C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/design_DIV.bd}
+startgroup
+set_property -dict [list CONFIG.C_Latency {19}] [get_bd_cells floating_point_0]
+endgroup
+save_bd_design
+open_bd_design {C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/design_MAC.bd}
+startgroup
+set_property -dict [list CONFIG.C_Latency {18}] [get_bd_cells floating_point_0]
+endgroup
+save_bd_design
+current_bd_design [get_bd_designs design_DIV]
+close_bd_design [get_bd_designs design_DIV]
+close_bd_design [get_bd_designs design_MAC]
+close_sim
+generate_target Simulation [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/design_DIV.bd]
+export_ip_user_files -of_objects [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/design_DIV.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/design_DIV.bd] -directory C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files -ipstatic_source_dir C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.cache/compile_simlib/modelsim} {questa=C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.cache/compile_simlib/questa} {riviera=C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.cache/compile_simlib/riviera} {activehdl=C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+generate_target Simulation [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/design_MAC.bd]
+export_ip_user_files -of_objects [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/design_MAC.bd] -no_script -sync -force -quiet
+export_simulation -of_objects [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/design_MAC.bd] -directory C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files/sim_scripts -ip_user_files_dir C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files -ipstatic_source_dir C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files/ipstatic -lib_map_path [list {modelsim=C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.cache/compile_simlib/modelsim} {questa=C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.cache/compile_simlib/questa} {riviera=C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.cache/compile_simlib/riviera} {activehdl=C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+launch_simulation
+source simTester_verilog.tcl
+run all
+close_sim
+open_bd_design {C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/design_BRAM_A.bd}
+open_bd_design {C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/design_DIV.bd}
+open_bd_design {C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/design_MAC.bd}
+current_bd_design [get_bd_designs design_BRAM_A]
+close_bd_design [get_bd_designs design_BRAM_A]
+close_bd_design [get_bd_designs design_DIV]
+close_bd_design [get_bd_designs design_MAC]
+launch_simulation
+source simTester_verilog.tcl
+run all
+close_sim

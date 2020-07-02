@@ -1,0 +1,188 @@
+{
+   guistr: "# # String gsaved with Nlview 6.6.8  2016-12-21 bk=1.3817 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port GPIO_28 -pg 1 -y 3330 -defaultsOSRD
+preplace port GPIO_19 -pg 1 -y 2160 -defaultsOSRD
+preplace port GPIO_8 -pg 1 -y 5020 -defaultsOSRD
+preplace port GPIO_29 -pg 1 -y 3460 -defaultsOSRD
+preplace port GPIO_9 -pg 1 -y 5150 -defaultsOSRD
+preplace port GPIO_30 -pg 1 -y 3590 -defaultsOSRD
+preplace port GPIO_31 -pg 1 -y 3720 -defaultsOSRD
+preplace port GPIO_10 -pg 1 -y 720 -defaultsOSRD
+preplace port GPIO_32 -pg 1 -y 3850 -defaultsOSRD
+preplace port GPIO_20 -pg 1 -y 2290 -defaultsOSRD
+preplace port GPIO_11 -pg 1 -y 850 -defaultsOSRD
+preplace port GPIO_33 -pg 1 -y 3980 -defaultsOSRD
+preplace port GPIO_21 -pg 1 -y 2420 -defaultsOSRD
+preplace port GPIO_12 -pg 1 -y 980 -defaultsOSRD
+preplace port BRAM_PORTA_1 -pg 1 -y 70 -defaultsOSRD
+preplace port GPIO_1 -pg 1 -y 590 -defaultsOSRD
+preplace port GPIO_2 -pg 1 -y 1900 -defaultsOSRD
+preplace port GPIO_34 -pg 1 -y 4110 -defaultsOSRD
+preplace port GPIO_22 -pg 1 -y 2550 -defaultsOSRD
+preplace port GPIO_13 -pg 1 -y 1110 -defaultsOSRD
+preplace port BRAM_PORTA_2 -pg 1 -y 200 -defaultsOSRD
+preplace port GPIO_35 -pg 1 -y 4760 -defaultsOSRD
+preplace port GPIO_23 -pg 1 -y 2680 -defaultsOSRD
+preplace port GPIO_14 -pg 1 -y 1240 -defaultsOSRD
+preplace port BRAM_PORTA_3 -pg 1 -y 330 -defaultsOSRD
+preplace port GPIO_3 -pg 1 -y 2030 -defaultsOSRD
+preplace port GPIO_36 -pg 1 -y 4890 -defaultsOSRD
+preplace port GPIO_24 -pg 1 -y 2810 -defaultsOSRD
+preplace port GPIO_15 -pg 1 -y 1370 -defaultsOSRD
+preplace port GPIO_4 -pg 1 -y 4240 -defaultsOSRD
+preplace port GPIO_25 -pg 1 -y 2940 -defaultsOSRD
+preplace port GPIO_16 -pg 1 -y 1500 -defaultsOSRD
+preplace port GPIO_5 -pg 1 -y 4370 -defaultsOSRD
+preplace port FCLK_CLK1 -pg 1 -y 1700 -defaultsOSRD
+preplace port GPIO_26 -pg 1 -y 3070 -defaultsOSRD
+preplace port GPIO_17 -pg 1 -y 1630 -defaultsOSRD
+preplace port GPIO_6 -pg 1 -y 4500 -defaultsOSRD
+preplace port BRAM_PORTA -pg 1 -y 5290 -defaultsOSRD
+preplace port GPIO -pg 1 -y 460 -defaultsOSRD
+preplace port FCLK_CLK2 -pg 1 -y 5220 -defaultsOSRD
+preplace port GPIO_27 -pg 1 -y 3200 -defaultsOSRD
+preplace port GPIO_18 -pg 1 -y 1770 -defaultsOSRD
+preplace port GPIO_7 -pg 1 -y 4630 -defaultsOSRD
+preplace inst axi_gpio_35 -pg 1 -lvl 3 -y 4760 -defaultsOSRD
+preplace inst axi_gpio_22 -pg 1 -lvl 3 -y 2550 -defaultsOSRD
+preplace inst axi_gpio_10 -pg 1 -lvl 3 -y 720 -defaultsOSRD
+preplace inst axi_gpio_8 -pg 1 -lvl 3 -y 5020 -defaultsOSRD
+preplace inst axi_bram_ctrl_2 -pg 1 -lvl 3 -y 200 -defaultsOSRD
+preplace inst axi_gpio_36 -pg 1 -lvl 3 -y 4890 -defaultsOSRD
+preplace inst axi_gpio_23 -pg 1 -lvl 3 -y 2680 -defaultsOSRD
+preplace inst axi_gpio_11 -pg 1 -lvl 3 -y 850 -defaultsOSRD
+preplace inst axi_gpio_9 -pg 1 -lvl 3 -y 5150 -defaultsOSRD
+preplace inst axi_bram_ctrl_3 -pg 1 -lvl 3 -y 330 -defaultsOSRD
+preplace inst axi_gpio_24 -pg 1 -lvl 3 -y 2810 -defaultsOSRD
+preplace inst axi_gpio_12 -pg 1 -lvl 3 -y 980 -defaultsOSRD
+preplace inst axi_gpio_25 -pg 1 -lvl 3 -y 2940 -defaultsOSRD
+preplace inst axi_gpio_13 -pg 1 -lvl 3 -y 1110 -defaultsOSRD
+preplace inst axi_gpio_26 -pg 1 -lvl 3 -y 3070 -defaultsOSRD
+preplace inst axi_gpio_14 -pg 1 -lvl 3 -y 1240 -defaultsOSRD
+preplace inst axi_gpio_27 -pg 1 -lvl 3 -y 3200 -defaultsOSRD
+preplace inst axi_gpio_15 -pg 1 -lvl 3 -y 1370 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 3 -y 460 -defaultsOSRD
+preplace inst axi_gpio_28 -pg 1 -lvl 3 -y 3330 -defaultsOSRD
+preplace inst axi_gpio_16 -pg 1 -lvl 3 -y 1500 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 3 -y 590 -defaultsOSRD
+preplace inst axi_gpio_2 -pg 1 -lvl 3 -y 1900 -defaultsOSRD
+preplace inst axi_gpio_29 -pg 1 -lvl 3 -y 3460 -defaultsOSRD
+preplace inst axi_gpio_17 -pg 1 -lvl 3 -y 1630 -defaultsOSRD
+preplace inst axi_gpio_30 -pg 1 -lvl 3 -y 3590 -defaultsOSRD
+preplace inst axi_gpio_18 -pg 1 -lvl 3 -y 1770 -defaultsOSRD
+preplace inst axi_gpio_3 -pg 1 -lvl 3 -y 2030 -defaultsOSRD
+preplace inst axi_gpio_31 -pg 1 -lvl 3 -y 3720 -defaultsOSRD
+preplace inst axi_gpio_19 -pg 1 -lvl 3 -y 2160 -defaultsOSRD
+preplace inst axi_gpio_4 -pg 1 -lvl 3 -y 4240 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -y 2540 -defaultsOSRD
+preplace inst axi_gpio_32 -pg 1 -lvl 3 -y 3850 -defaultsOSRD
+preplace inst axi_gpio_5 -pg 1 -lvl 3 -y 4370 -defaultsOSRD
+preplace inst axi_gpio_33 -pg 1 -lvl 3 -y 3980 -defaultsOSRD
+preplace inst axi_gpio_20 -pg 1 -lvl 3 -y 2290 -defaultsOSRD
+preplace inst axi_gpio_6 -pg 1 -lvl 3 -y 4500 -defaultsOSRD
+preplace inst axi_bram_ctrl_0 -pg 1 -lvl 3 -y 5290 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -y 1440 -defaultsOSRD
+preplace inst axi_gpio_34 -pg 1 -lvl 3 -y 4110 -defaultsOSRD
+preplace inst axi_gpio_21 -pg 1 -lvl 3 -y 2420 -defaultsOSRD
+preplace inst axi_gpio_7 -pg 1 -lvl 3 -y 4630 -defaultsOSRD
+preplace inst axi_bram_ctrl_1 -pg 1 -lvl 3 -y 70 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -y 1680 -defaultsOSRD
+preplace netloc axi_gpio_2_GPIO 1 3 1 N
+preplace netloc ps7_0_axi_periph_M20_AXI 1 2 1 1010
+preplace netloc axi_gpio_8_GPIO 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M08_AXI 1 2 1 1020
+preplace netloc axi_gpio_9_GPIO 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M40_AXI 1 2 1 800
+preplace netloc ps7_0_axi_periph_M15_AXI 1 2 1 870
+preplace netloc ps7_0_axi_periph_M09_AXI 1 2 1 1000
+preplace netloc axi_gpio_36_GPIO 1 3 1 NJ
+preplace netloc axi_gpio_19_GPIO 1 3 1 NJ
+preplace netloc axi_gpio_5_GPIO 1 3 1 NJ
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 2 500 1480 960
+preplace netloc axi_gpio_15_GPIO 1 3 1 NJ
+preplace netloc axi_gpio_10_GPIO 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M02_AXI 1 2 1 900
+preplace netloc axi_gpio_4_GPIO 1 3 1 NJ
+preplace netloc axi_gpio_32_GPIO 1 3 1 NJ
+preplace netloc axi_gpio_16_GPIO 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M04_AXI 1 2 1 900
+preplace netloc axi_bram_ctrl_1_BRAM_PORTA 1 3 1 NJ
+preplace netloc axi_gpio_24_GPIO 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M03_AXI 1 2 1 920
+preplace netloc ps7_0_axi_periph_M35_AXI 1 2 1 890
+preplace netloc axi_gpio_0_GPIO 1 3 1 NJ
+preplace netloc axi_gpio_14_GPIO 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M16_AXI 1 2 1 890
+preplace netloc ps7_0_axi_periph_M26_AXI 1 2 1 1080
+preplace netloc axi_gpio_20_GPIO 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M21_AXI 1 2 1 1030
+preplace netloc axi_gpio_30_GPIO 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M37_AXI 1 2 1 840
+preplace netloc ps7_0_axi_periph_M38_AXI 1 2 1 830
+preplace netloc ps7_0_axi_periph_M12_AXI 1 2 1 880
+preplace netloc axi_gpio_29_GPIO 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M36_AXI 1 2 1 870
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 810
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 20 1350 450
+preplace netloc ps7_0_axi_periph_M33_AXI 1 2 1 930
+preplace netloc axi_gpio_13_GPIO 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M23_AXI 1 2 1 1050
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 820
+preplace netloc axi_bram_ctrl_0_BRAM_PORTA 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M18_AXI 1 2 1 970
+preplace netloc ps7_0_axi_periph_M17_AXI 1 2 1 910
+preplace netloc axi_gpio_33_GPIO 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M10_AXI 1 2 1 980
+preplace netloc ps7_0_axi_periph_M34_AXI 1 2 1 910
+preplace netloc ps7_0_axi_periph_M07_AXI 1 2 1 840
+preplace netloc axi_gpio_6_GPIO 1 3 1 NJ
+preplace netloc axi_gpio_34_GPIO 1 3 1 NJ
+preplace netloc rst_ps7_0_100M_interconnect_aresetn 1 1 1 470
+preplace netloc ps7_0_axi_periph_M13_AXI 1 2 1 860
+preplace netloc ps7_0_axi_periph_M14_AXI 1 2 1 850
+preplace netloc ps7_0_axi_periph_M31_AXI 1 2 1 1010
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 30 1530 490 1530 950
+preplace netloc ps7_0_axi_periph_M22_AXI 1 2 1 1040
+preplace netloc processing_system7_0_FCLK_CLK1 1 1 3 480J 1580 1040J 1700 NJ
+preplace netloc axi_bram_ctrl_3_BRAM_PORTA 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M28_AXI 1 2 1 850
+preplace netloc axi_gpio_26_GPIO 1 3 1 NJ
+preplace netloc axi_gpio_25_GPIO 1 3 1 NJ
+preplace netloc processing_system7_0_FCLK_CLK2 1 1 3 460J 1560 940J 5220 NJ
+preplace netloc axi_gpio_23_GPIO 1 3 1 NJ
+preplace netloc axi_gpio_18_GPIO 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M06_AXI 1 2 1 830
+preplace netloc axi_gpio_17_GPIO 1 3 1 NJ
+preplace netloc axi_gpio_11_GPIO 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M11_AXI 1 2 1 920
+preplace netloc axi_bram_ctrl_2_BRAM_PORTA 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M05_AXI 1 2 1 800
+preplace netloc ps7_0_axi_periph_M24_AXI 1 2 1 1060
+preplace netloc axi_gpio_31_GPIO 1 3 1 NJ
+preplace netloc axi_gpio_21_GPIO 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M25_AXI 1 2 1 1070
+preplace netloc ps7_0_axi_periph_M32_AXI 1 2 1 990
+preplace netloc axi_gpio_1_GPIO 1 3 1 NJ
+preplace netloc axi_gpio_12_GPIO 1 3 1 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 N
+preplace netloc axi_gpio_28_GPIO 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M19_AXI 1 2 1 990
+preplace netloc axi_gpio_22_GPIO 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M27_AXI 1 2 1 N
+preplace netloc ps7_0_axi_periph_M39_AXI 1 2 1 810
+preplace netloc axi_gpio_7_GPIO 1 3 1 NJ
+preplace netloc axi_gpio_35_GPIO 1 3 1 NJ
+preplace netloc axi_gpio_27_GPIO 1 3 1 NJ
+preplace netloc ps7_0_axi_periph_M30_AXI 1 2 1 1080
+preplace netloc ps7_0_axi_periph_M29_AXI 1 2 1 820
+preplace netloc axi_gpio_3_GPIO 1 3 1 NJ
+levelinfo -pg 1 0 240 650 1220 1380 -top 0 -bot 5360
+",
+}
+{
+   da_axi4_cnt: "49",
+   da_board_cnt: "45",
+   da_bram_cntlr_cnt: "5",
+   da_ps7_cnt: "1",
+}

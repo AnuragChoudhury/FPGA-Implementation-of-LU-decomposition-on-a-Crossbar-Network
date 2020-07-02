@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_MAC_floating_point_0_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_MAC_floating_point_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_BRAM_D_blk_mem_gen_0_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_BRAM_D_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_BRAM_C_blk_mem_gen_0_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_BRAM_C_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_BRAM_A_blk_mem_gen_0_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_BRAM_A_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_CTRL_blk_mem_gen_0_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_CTRL_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_DIV_floating_point_0_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_DIV_floating_point_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_HILA_ila_0_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_HILA_ila_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_CLK_RST_clk_wiz_0_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_CLK_RST_clk_wiz_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_BRAM_B_blk_mem_gen_0_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_BRAM_B_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_MAC_floating_point_0_0_synth_1"/>
+		<Parent Id="design_BRAM_D_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="design_BRAM_C_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="design_BRAM_A_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="design_CTRL_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="design_DIV_floating_point_0_0_synth_1"/>
+		<Parent Id="design_HILA_ila_0_0_synth_1"/>
+		<Parent Id="design_CLK_RST_clk_wiz_0_0_synth_1"/>
+		<Parent Id="design_BRAM_B_blk_mem_gen_0_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="design_MAC_floating_point_0_0_synth_1"/>
+		<Parent Id="design_BRAM_D_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="design_BRAM_C_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="design_BRAM_A_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="design_CTRL_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="design_DIV_floating_point_0_0_synth_1"/>
+		<Parent Id="design_HILA_ila_0_0_synth_1"/>
+		<Parent Id="design_CLK_RST_clk_wiz_0_0_synth_1"/>
+		<Parent Id="design_BRAM_B_blk_mem_gen_0_0_synth_1"/>
+	</Run>
+</Runs>
+

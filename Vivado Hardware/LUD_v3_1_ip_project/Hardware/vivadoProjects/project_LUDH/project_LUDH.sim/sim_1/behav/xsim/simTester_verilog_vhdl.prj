@@ -1,0 +1,27 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_LUDH.ip_user_files/bd/design_DIV/ip/design_DIV_floating_point_0_0/sim/design_DIV_floating_point_0_0.vhd" \
+"../../../../project_LUDH.ip_user_files/bd/design_MAC/ip/design_MAC_floating_point_0_0/sim/design_MAC_floating_point_0_0.vhd" \
+"../../../../project_LUDH.ip_user_files/bd/design_DIV/sim/design_DIV.vhd" \
+"../../../../project_LUDH.ip_user_files/bd/design_MAC/sim/design_MAC.vhd" \
+"../../../../project_LUDH.ip_user_files/bd/design_BRAM_A/sim/design_BRAM_A.vhd" \
+"../../../../../../autoHdlFiles/types.vhd" \
+"../../../../../../hdlFiles/regs.vhd" \
+"../../../../../../hdlFiles/quadBRAM.vhd" \
+"../../../../project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_A_wrapper.vhd" \
+"../../../../project_LUDH.srcs/sources_1/new/bram_ZYNQ_mux.vhd" \
+"../../../../project_LUDH.srcs/sources_1/new/bram_ZYNQ_decoder.vhd" \
+"../../../../project_LUDH.srcs/sources_1/imports/hdl/design_MAC_wrapper.vhd" \
+"../../../../project_LUDH.srcs/sources_1/imports/hdl/design_DIV_wrapper.vhd" \
+"../../../../../../autoHdlFiles/MUX_AU_IN.vhd" \
+"../../../../../../autoHdlFiles/MUX_BRAM_IN.vhd" \
+"../../../../../../autoHdlFiles/LUDHardware.vhd" \
+"../../../../../../hdlFiles/hardwareTester.vhd" \
+"../../../../../../hdlFiles/hardwareTesterWrapper.vhd" \
+"../../../../project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd" \
+"../../../../project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0.vhd" \
+"../../../../project_LUDH.ip_user_files/bd/design_CTRL/sim/design_CTRL.vhd" \
+"../../../../project_LUDH.srcs/sources_1/imports/hdl/design_CTRL_wrapper.vhd" \
+
+# Do not sort compile order
+nosort

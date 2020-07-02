@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../bd/design_BRAM_A/sim/design_BRAM_A.vhd" \
+
+nosort

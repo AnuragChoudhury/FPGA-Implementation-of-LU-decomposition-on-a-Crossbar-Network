@@ -1,0 +1,7 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Block Memory Generator module simTester_verilog.uut1.tester.ctrlStorage.design_CTRL_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_A.design_BRAM_A_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_B.design_BRAM_B_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_C.design_BRAM_C_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_D.design_BRAM_D_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.

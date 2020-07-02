@@ -1,0 +1,351 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon May  4 20:44:09 2020
+# Process ID: 7144
+# Current directory: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12704 C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\LUD_v3_2_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.xpr
+# Log file: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/vivado.log
+# Journal file: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH'
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/LUD_v3_1_ip'.
+WARNING: [filemgmt 56-3] IP Repository Path: Could not find the directory 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/lud_ip_v2'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/LUD_v3_2_ip'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/LUD_v3_1_ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/lud_ip_v2'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 716.688 ; gain = 84.828
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'simTester_verilog' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj simTester_verilog_vlog.prj"
+"xvhdl --incr --relax -prj simTester_verilog_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 16c1ae1ce343424d95aa412287c18abf --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L axi_utils_v2_0_5 -L xbip_pipe_v3_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_5 -L xbip_dsp48_multadd_v3_0_5 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L floating_point_v7_1_7 -L xil_defaultlib -L blk_mem_gen_v8_4_2 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot simTester_verilog_behav xil_defaultlib.simTester_verilog xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 996.621 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "simTester_verilog_behav -key {Behavioral:sim_1:Functional:simTester_verilog} -tclbatch {simTester_verilog.tcl} -protoinst "protoinst_files/design_DIV.protoinst" -protoinst "protoinst_files/design_MAC.protoinst" -protoinst "protoinst_files/design_BRAM_A.protoinst" -protoinst "protoinst_files/design_BRAM_B.protoinst" -protoinst "protoinst_files/design_BRAM_C.protoinst" -protoinst "protoinst_files/design_BRAM_D.protoinst" -protoinst "protoinst_files/design_BRAM_E.protoinst" -protoinst "protoinst_files/design_BRAM_F.protoinst" -protoinst "protoinst_files/design_BRAM_G.protoinst" -protoinst "protoinst_files/design_BRAM_H.protoinst" -protoinst "protoinst_files/design_CTRL.protoinst" -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_DIV.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_A/design_DIV_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_B/design_DIV_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_C/design_DIV_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_D/design_DIV_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_A/design_DIV_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_B/design_DIV_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_C/design_DIV_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_D/design_DIV_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_A/design_DIV_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_B/design_DIV_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_C/design_DIV_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_D/design_DIV_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_MAC.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i//floating_point_0/S_AXIS_C
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i//floating_point_0/S_AXIS_C
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i//floating_point_0/S_AXIS_C
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i//floating_point_0/S_AXIS_C
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i//floating_point_0/S_AXIS_OPERATION
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i//floating_point_0/S_AXIS_OPERATION
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i//floating_point_0/S_AXIS_OPERATION
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i//floating_point_0/S_AXIS_OPERATION
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_A.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_C.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_D.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_E.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_F.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_G.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_H.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_CTRL.protoinst
+Time resolution is 1 ps
+source simTester_verilog.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+WARNING: [Wavedata 42-489] Can't add object "/simTester_verilog/BRAM_dump" to the wave window because it has 262144 bits, which exceeds the display limit of 65536 bits.  To change the display limit, use the command "set_property display_limit <new limit> [current_wave_config]".
+WARNING: [Wavedata 42-489] Can't add object "/simTester_verilog/Inst" to the wave window because it has 217344 bits, which exceeds the display limit of 65536 bits.  To change the display limit, use the command "set_property display_limit <new limit> [current_wave_config]".
+# run 1000ns
+Block Memory Generator module simTester_verilog.uut1.tester.ctrlStorage.design_CTRL_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_A.design_BRAM_A_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_B.design_BRAM_B_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_C.design_BRAM_C_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_D.design_BRAM_D_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_E.design_BRAM_E_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_F.design_BRAM_F_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_G.design_BRAM_G_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_H.design_BRAM_H_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Warning: OPMODE Input Warning : The OPMODE 01100XX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 320 ns  Iteration: 4  Process: /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/fma_op/OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/dsp_add/one_dsp/FRAC_ADDSUB/dsp48e1_add/DSP48E1_ADD/DSP/prcs_opmode_drc  File: C:\Xilinx\Vivado\2018.3\data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 01100XX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 320 ns  Iteration: 4  Process: /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/fma_op/OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/dsp_add/one_dsp/FRAC_ADDSUB/dsp48e1_add/DSP48E1_ADD/DSP/prcs_opmode_drc  File: C:\Xilinx\Vivado\2018.3\data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 01100XX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 320 ns  Iteration: 4  Process: /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/fma_op/OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/dsp_add/one_dsp/FRAC_ADDSUB/dsp48e1_add/DSP48E1_ADD/DSP/prcs_opmode_drc  File: C:\Xilinx\Vivado\2018.3\data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 01100XX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 320 ns  Iteration: 4  Process: /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/fma_op/OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/dsp_add/one_dsp/FRAC_ADDSUB/dsp48e1_add/DSP48E1_ADD/DSP/prcs_opmode_drc  File: C:\Xilinx\Vivado\2018.3\data/vhdl/src/unisims/primitive/DSP48E1.vhd
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'simTester_verilog_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:18 . Memory (MB): peak = 996.621 ; gain = 0.000
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/simTester_verilog/uut1/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/inst/\native_mem_module.blk_mem_gen_v8_4_2_inst /memory}} 
+WARNING: [Wavedata 42-489] Can't add object "/simTester_verilog/uut1/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/inst/\native_mem_module.blk_mem_gen_v8_4_2_inst /memory" to the wave window because it has 1462272 bits, which exceeds the display limit of 65536 bits.  To change the display limit, use the command "set_property display_limit <new limit> [current_wave_config]".
+INFO: [Wavedata 42-43] There are no traceable objects to add.
+run all
+WARNING: [Simulator 45-29] Cannot open source file /wrk/2018.3/nightly/2018_12_06_2405991/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v: file does not exist.
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/simTester_verilog/uut1/LUDH/block_G/design_BRAM_G_i/blk_mem_gen_0/inst/\native_mem_module.blk_mem_gen_v8_4_2_inst /memory}} 
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'simTester_verilog' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj simTester_verilog_vlog.prj"
+"xvhdl --incr --relax -prj simTester_verilog_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 16c1ae1ce343424d95aa412287c18abf --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L axi_utils_v2_0_5 -L xbip_pipe_v3_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_5 -L xbip_dsp48_multadd_v3_0_5 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L floating_point_v7_1_7 -L xil_defaultlib -L blk_mem_gen_v8_4_2 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot simTester_verilog_behav xil_defaultlib.simTester_verilog xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 996.621 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 996.621 ; gain = 0.000
+Vivado Simulator 2018.3
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_DIV.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_A/design_DIV_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_B/design_DIV_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_C/design_DIV_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_D/design_DIV_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_A/design_DIV_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_B/design_DIV_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_C/design_DIV_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_D/design_DIV_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_A/design_DIV_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_B/design_DIV_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_C/design_DIV_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_D/design_DIV_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_MAC.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i//floating_point_0/S_AXIS_C
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i//floating_point_0/S_AXIS_C
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i//floating_point_0/S_AXIS_C
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i//floating_point_0/S_AXIS_C
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i//floating_point_0/S_AXIS_OPERATION
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i//floating_point_0/S_AXIS_OPERATION
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i//floating_point_0/S_AXIS_OPERATION
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i//floating_point_0/S_AXIS_OPERATION
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_A.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_C.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_D.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_E.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_F.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_G.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_H.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_CTRL.protoinst
+Time resolution is 1 ps
+Block Memory Generator module simTester_verilog.uut1.tester.ctrlStorage.design_CTRL_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_A.design_BRAM_A_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_B.design_BRAM_B_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_C.design_BRAM_C_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_D.design_BRAM_D_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_E.design_BRAM_E_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_F.design_BRAM_F_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_G.design_BRAM_G_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_H.design_BRAM_H_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Warning: OPMODE Input Warning : The OPMODE 01100XX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 320 ns  Iteration: 4  Process: /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/fma_op/OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/dsp_add/one_dsp/FRAC_ADDSUB/dsp48e1_add/DSP48E1_ADD/DSP/prcs_opmode_drc  File: C:\Xilinx\Vivado\2018.3\data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 01100XX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 320 ns  Iteration: 4  Process: /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/fma_op/OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/dsp_add/one_dsp/FRAC_ADDSUB/dsp48e1_add/DSP48E1_ADD/DSP/prcs_opmode_drc  File: C:\Xilinx\Vivado\2018.3\data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 01100XX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 320 ns  Iteration: 4  Process: /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/fma_op/OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/dsp_add/one_dsp/FRAC_ADDSUB/dsp48e1_add/DSP48E1_ADD/DSP/prcs_opmode_drc  File: C:\Xilinx\Vivado\2018.3\data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 01100XX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 320 ns  Iteration: 4  Process: /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/fma_op/OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/dsp_add/one_dsp/FRAC_ADDSUB/dsp48e1_add/DSP48E1_ADD/DSP/prcs_opmode_drc  File: C:\Xilinx\Vivado\2018.3\data/vhdl/src/unisims/primitive/DSP48E1.vhd
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:15 . Memory (MB): peak = 996.621 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 996.621 ; gain = 0.000
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/simTester_verilog/uut1/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/inst/\native_mem_module.blk_mem_gen_v8_4_2_inst /memory[0]}} {{/simTester_verilog/uut1/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/inst/\native_mem_module.blk_mem_gen_v8_4_2_inst /memory[1]}} {{/simTester_verilog/uut1/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/inst/\native_mem_module.blk_mem_gen_v8_4_2_inst /memory[2]}} {{/simTester_verilog/uut1/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/inst/\native_mem_module.blk_mem_gen_v8_4_2_inst /memory[3]}} {{/simTester_verilog/uut1/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/inst/\native_mem_module.blk_mem_gen_v8_4_2_inst /memory[4]}} 
+run all
+run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 996.621 ; gain = 0.000
+current_wave_config {Untitled 1}
+Untitled 1
+add_wave {{/simTester_verilog/uut1/LUDH/block_G/design_BRAM_G_i/blk_mem_gen_0/inst/\native_mem_module.blk_mem_gen_v8_4_2_inst /memory}} 
+relaunch_sim
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'simTester_verilog' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj simTester_verilog_vlog.prj"
+"xvhdl --incr --relax -prj simTester_verilog_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 16c1ae1ce343424d95aa412287c18abf --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L axi_utils_v2_0_5 -L xbip_pipe_v3_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_5 -L xbip_dsp48_multadd_v3_0_5 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L floating_point_v7_1_7 -L xil_defaultlib -L blk_mem_gen_v8_4_2 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot simTester_verilog_behav xil_defaultlib.simTester_verilog xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 996.621 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '9' seconds
+launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 996.621 ; gain = 0.000
+Vivado Simulator 2018.3
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_DIV.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_A/design_DIV_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_B/design_DIV_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_C/design_DIV_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_D/design_DIV_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_A/design_DIV_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_B/design_DIV_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_C/design_DIV_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_D/design_DIV_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_A/design_DIV_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_B/design_DIV_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_C/design_DIV_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/DIV_D/design_DIV_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_MAC.protoinst
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i//floating_point_0/M_AXIS_RESULT
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i//floating_point_0/S_AXIS_A
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i//floating_point_0/S_AXIS_B
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i//floating_point_0/S_AXIS_C
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i//floating_point_0/S_AXIS_C
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i//floating_point_0/S_AXIS_C
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i//floating_point_0/S_AXIS_C
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i//floating_point_0/S_AXIS_OPERATION
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i//floating_point_0/S_AXIS_OPERATION
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i//floating_point_0/S_AXIS_OPERATION
+INFO: [Wavedata 42-564]   Found protocol instance at /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i//floating_point_0/S_AXIS_OPERATION
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_A.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_B.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_C.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_D.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_E.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_F.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_G.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_BRAM_H.protoinst
+INFO: [Wavedata 42-565] Reading protoinst file protoinst_files/design_CTRL.protoinst
+Time resolution is 1 ps
+Block Memory Generator module simTester_verilog.uut1.tester.ctrlStorage.design_CTRL_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_A.design_BRAM_A_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_B.design_BRAM_B_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_C.design_BRAM_C_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_D.design_BRAM_D_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_E.design_BRAM_E_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_F.design_BRAM_F_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_G.design_BRAM_G_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_H.design_BRAM_H_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Warning: OPMODE Input Warning : The OPMODE 01100XX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 320 ns  Iteration: 4  Process: /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/fma_op/OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/dsp_add/one_dsp/FRAC_ADDSUB/dsp48e1_add/DSP48E1_ADD/DSP/prcs_opmode_drc  File: C:\Xilinx\Vivado\2018.3\data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 01100XX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 320 ns  Iteration: 4  Process: /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/fma_op/OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/dsp_add/one_dsp/FRAC_ADDSUB/dsp48e1_add/DSP48E1_ADD/DSP/prcs_opmode_drc  File: C:\Xilinx\Vivado\2018.3\data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 01100XX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 320 ns  Iteration: 4  Process: /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/fma_op/OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/dsp_add/one_dsp/FRAC_ADDSUB/dsp48e1_add/DSP48E1_ADD/DSP/prcs_opmode_drc  File: C:\Xilinx\Vivado\2018.3\data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 01100XX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 320 ns  Iteration: 4  Process: /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/fma_op/OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/dsp_add/one_dsp/FRAC_ADDSUB/dsp48e1_add/DSP48E1_ADD/DSP/prcs_opmode_drc  File: C:\Xilinx\Vivado\2018.3\data/vhdl/src/unisims/primitive/DSP48E1.vhd
+relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:16 . Memory (MB): peak = 996.621 ; gain = 0.000
+run all
+run: Time (s): cpu = 00:00:04 ; elapsed = 00:00:17 . Memory (MB): peak = 996.621 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May  4 20:55:33 2020...

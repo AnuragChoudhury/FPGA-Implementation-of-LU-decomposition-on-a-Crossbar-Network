@@ -1,0 +1,378 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat May  2 09:42:18 2020
+# Process ID: 10504
+# Current directory: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11376 C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\LUD_v3_3_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.xpr
+# Log file: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/vivado.log
+# Journal file: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH'
+INFO: [Project 1-313] Project file moved from 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/LUD_v3_1_ip', nor could it be found using path 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/LUD_v3_1_ip'.
+WARNING: [filemgmt 56-2] IP Repository Path: Could not find the directory 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/lud_ip_v2', nor could it be found using path 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/lud_ip_v2'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/LUD_v3_2_ip'.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/LUD_v3_1_ip'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+WARNING: [IP_Flow 19-2248] Failed to load user IP repository 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/lud_ip_v2'; Can't find the specified path.
+If this directory should no longer be in your list of user repositories, go to the IP Settings dialog and remove it.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:10 . Memory (MB): peak = 730.324 ; gain = 113.730
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_A_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_A_wrapper.vhd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_A_wrapper.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/design_BRAM_A.bd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/design_BRAM_A.bd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_B_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_B_wrapper.vhd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_B_wrapper.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/design_BRAM_B.bd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/design_BRAM_B.bd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_C_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_C_wrapper.vhd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_C_wrapper.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/design_BRAM_C.bd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/design_BRAM_C.bd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_D_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_D_wrapper.vhd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_D_wrapper.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/design_BRAM_D.bd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/design_BRAM_D.bd
+remove_files: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1099.301 ; gain = 0.000
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_E_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_E_wrapper.vhd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_E_wrapper.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_E/design_BRAM_E.bd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_E/design_BRAM_E.bd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_E
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_F_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_F_wrapper.vhd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_F_wrapper.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_F/design_BRAM_F.bd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_F/design_BRAM_F.bd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_F
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_G_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_G_wrapper.vhd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_G_wrapper.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_G/design_BRAM_G.bd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_G/design_BRAM_G.bd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_G
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_H_wrapper.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_H_wrapper.vhd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_H_wrapper.vhd
+export_ip_user_files -of_objects  [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_H/design_BRAM_H.bd] -no_script -reset -force -quiet
+remove_files  C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_H/design_BRAM_H.bd
+file delete -force C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_H
+open_bd_design {C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/design_CTRL.bd}
+Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0
+Successfully read diagram <design_CTRL> from BD file <C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/design_CTRL.bd>
+open_bd_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1099.301 ; gain = 0.000
+INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+startgroup
+set_property -dict [list CONFIG.Write_Width_A {80} CONFIG.Write_Depth_A {16384} CONFIG.Read_Width_A {80} CONFIG.Write_Width_B {80} CONFIG.Read_Width_B {80}] [get_bd_cells blk_mem_gen_0]
+endgroup
+save_bd_design
+Wrote  : <C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\LUD_v3_3_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.srcs\sources_1\bd\design_CTRL\design_CTRL.bd> 
+close_bd_design [get_bd_designs design_CTRL]
+make_wrapper -files [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/design_CTRL.bd] -top
+WARNING: [BD 41-2180] Resetting the memory initialization file of </blk_mem_gen_0> to default.
+Wrote  : <C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\LUD_v3_3_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.srcs\sources_1\bd\design_CTRL\design_CTRL.bd> 
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/synth/design_CTRL.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/sim/design_CTRL.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/hdl/design_CTRL_wrapper.vhd
+WARNING: [Vivado 12-3482] The generated wrapper file has already been imported into the project, the imported file is:
+'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_CTRL_wrapper.vhd'
+import_files -force -norecurse C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/hdl/design_CTRL_wrapper.vhd
+create_bd_design "design_BRAM_A"
+Wrote  : <C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\LUD_v3_3_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.srcs\sources_1\bd\design_BRAM_A\design_BRAM_A.bd> 
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:blk_mem_gen:8.4 blk_mem_gen_0
+endgroup
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Enable_32bit_Address {false} CONFIG.Use_Byte_Write_Enable {false} CONFIG.Byte_Size {9} CONFIG.Write_Depth_A {4096} CONFIG.Register_PortA_Output_of_Memory_Primitives {false} CONFIG.Use_RSTA_Pin {false} CONFIG.use_bram_block {Stand_Alone} CONFIG.EN_SAFETY_CKT {false}] [get_bd_cells blk_mem_gen_0]
+startgroup
+make_bd_pins_external  [get_bd_cells blk_mem_gen_0]
+make_bd_intf_pins_external  [get_bd_cells blk_mem_gen_0]
+endgroup
+save_bd_design
+Wrote  : <C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\LUD_v3_3_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.srcs\sources_1\bd\design_BRAM_A\design_BRAM_A.bd> 
+Wrote  : <C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/ui/bd_e537199f.ui> 
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+create_bd_design "design_BRAM_B"
+Wrote  : <C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\LUD_v3_3_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.srcs\sources_1\bd\design_BRAM_B\design_BRAM_B.bd> 
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:blk_mem_gen:8.4 blk_mem_gen_0
+endgroup
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Enable_32bit_Address {false} CONFIG.Use_Byte_Write_Enable {false} CONFIG.Byte_Size {9} CONFIG.Write_Depth_A {4096} CONFIG.Register_PortA_Output_of_Memory_Primitives {false} CONFIG.Use_RSTA_Pin {false} CONFIG.use_bram_block {Stand_Alone} CONFIG.EN_SAFETY_CKT {false}] [get_bd_cells blk_mem_gen_0]
+startgroup
+make_bd_pins_external  [get_bd_cells blk_mem_gen_0]
+make_bd_intf_pins_external  [get_bd_cells blk_mem_gen_0]
+endgroup
+save_bd_design
+Wrote  : <C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\LUD_v3_3_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.srcs\sources_1\bd\design_BRAM_B\design_BRAM_B.bd> 
+Wrote  : <C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/ui/bd_e5b52920.ui> 
+create_bd_design "design_BRAM_C"
+Wrote  : <C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\LUD_v3_3_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.srcs\sources_1\bd\design_BRAM_C\design_BRAM_C.bd> 
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:blk_mem_gen:8.4 blk_mem_gen_0
+endgroup
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Enable_32bit_Address {false} CONFIG.Use_Byte_Write_Enable {false} CONFIG.Byte_Size {9} CONFIG.Write_Depth_A {4096} CONFIG.Register_PortA_Output_of_Memory_Primitives {false} CONFIG.Use_RSTA_Pin {false} CONFIG.use_bram_block {Stand_Alone} CONFIG.EN_SAFETY_CKT {false}] [get_bd_cells blk_mem_gen_0]
+startgroup
+make_bd_pins_external  [get_bd_cells blk_mem_gen_0]
+make_bd_intf_pins_external  [get_bd_cells blk_mem_gen_0]
+endgroup
+save_bd_design
+Wrote  : <C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\LUD_v3_3_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.srcs\sources_1\bd\design_BRAM_C\design_BRAM_C.bd> 
+Wrote  : <C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/ui/bd_e63338a1.ui> 
+create_bd_design "design_BRAM_D"
+Wrote  : <C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\LUD_v3_3_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.srcs\sources_1\bd\design_BRAM_D\design_BRAM_D.bd> 
+startgroup
+create_bd_cell -type ip -vlnv xilinx.com:ip:blk_mem_gen:8.4 blk_mem_gen_0
+endgroup
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified checkbox.Providing a default widget
+set_property -dict [list CONFIG.Enable_32bit_Address {false} CONFIG.Use_Byte_Write_Enable {false} CONFIG.Byte_Size {9} CONFIG.Write_Depth_A {4096} CONFIG.Register_PortA_Output_of_Memory_Primitives {false} CONFIG.Use_RSTA_Pin {false} CONFIG.use_bram_block {Stand_Alone} CONFIG.EN_SAFETY_CKT {false}] [get_bd_cells blk_mem_gen_0]
+startgroup
+make_bd_pins_external  [get_bd_cells blk_mem_gen_0]
+make_bd_intf_pins_external  [get_bd_cells blk_mem_gen_0]
+endgroup
+save_bd_design
+Wrote  : <C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\LUD_v3_3_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.srcs\sources_1\bd\design_BRAM_D\design_BRAM_D.bd> 
+Wrote  : <C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/ui/bd_e6b14822.ui> 
+current_bd_design [get_bd_designs design_BRAM_A]
+close_bd_design [get_bd_designs design_BRAM_A]
+close_bd_design [get_bd_designs design_BRAM_B]
+close_bd_design [get_bd_designs design_BRAM_C]
+close_bd_design [get_bd_designs design_BRAM_D]
+make_wrapper -files [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/design_BRAM_A.bd] -top
+WARNING: [BD 41-2180] Resetting the memory initialization file of </blk_mem_gen_0> to default.
+Wrote  : <C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\LUD_v3_3_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.srcs\sources_1\bd\design_BRAM_A\design_BRAM_A.bd> 
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/synth/design_BRAM_A.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/sim/design_BRAM_A.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/hdl/design_BRAM_A_wrapper.vhd
+import_files -force -norecurse C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/hdl/design_BRAM_A_wrapper.vhd
+make_wrapper -files [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/design_BRAM_B.bd] -top
+WARNING: [BD 41-2180] Resetting the memory initialization file of </blk_mem_gen_0> to default.
+Wrote  : <C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\LUD_v3_3_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.srcs\sources_1\bd\design_BRAM_B\design_BRAM_B.bd> 
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/synth/design_BRAM_B.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/sim/design_BRAM_B.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/hdl/design_BRAM_B_wrapper.vhd
+import_files -force -norecurse C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/hdl/design_BRAM_B_wrapper.vhd
+make_wrapper -files [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/design_BRAM_C.bd] -top
+WARNING: [BD 41-2180] Resetting the memory initialization file of </blk_mem_gen_0> to default.
+Wrote  : <C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\LUD_v3_3_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.srcs\sources_1\bd\design_BRAM_C\design_BRAM_C.bd> 
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/synth/design_BRAM_C.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/sim/design_BRAM_C.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/hdl/design_BRAM_C_wrapper.vhd
+import_files -force -norecurse C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/hdl/design_BRAM_C_wrapper.vhd
+make_wrapper -files [get_files C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/design_BRAM_D.bd] -top
+WARNING: [BD 41-2180] Resetting the memory initialization file of </blk_mem_gen_0> to default.
+Wrote  : <C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\LUD_v3_3_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.srcs\sources_1\bd\design_BRAM_D\design_BRAM_D.bd> 
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/synth/design_BRAM_D.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/sim/design_BRAM_D.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/hdl/design_BRAM_D_wrapper.vhd
+import_files -force -norecurse C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/hdl/design_BRAM_D_wrapper.vhd
+reset_run design_DIV_floating_point_0_0_synth_1
+reset_run design_MAC_floating_point_0_0_synth_1
+reset_run design_CTRL_blk_mem_gen_0_0_synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+INFO: [BD 41-1029] Generation completed for the IP Integrator block floating_point_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block floating_point_0 .
+INFO: [BD 41-1662] The design 'design_CTRL.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-2180] Resetting the memory initialization file of </blk_mem_gen_0> to default.
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/synth/design_CTRL.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/sim/design_CTRL.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/hdl/design_CTRL_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+Exporting to file C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/hw_handoff/design_CTRL.hwh
+Generated Block Design Tcl file C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/hw_handoff/design_CTRL_bd.tcl
+Generated Hardware Definition File C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/synth/design_CTRL.hwdef
+INFO: [BD 41-1662] The design 'design_BRAM_A.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-2180] Resetting the memory initialization file of </blk_mem_gen_0> to default.
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/synth/design_BRAM_A.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/sim/design_BRAM_A.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/hdl/design_BRAM_A_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+Exporting to file C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/hw_handoff/design_BRAM_A.hwh
+Generated Block Design Tcl file C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/hw_handoff/design_BRAM_A_bd.tcl
+Generated Hardware Definition File C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/synth/design_BRAM_A.hwdef
+INFO: [BD 41-1662] The design 'design_BRAM_B.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-2180] Resetting the memory initialization file of </blk_mem_gen_0> to default.
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/synth/design_BRAM_B.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/sim/design_BRAM_B.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/hdl/design_BRAM_B_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+Exporting to file C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/hw_handoff/design_BRAM_B.hwh
+Generated Block Design Tcl file C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/hw_handoff/design_BRAM_B_bd.tcl
+Generated Hardware Definition File C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_B/synth/design_BRAM_B.hwdef
+INFO: [BD 41-1662] The design 'design_BRAM_C.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-2180] Resetting the memory initialization file of </blk_mem_gen_0> to default.
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/synth/design_BRAM_C.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/sim/design_BRAM_C.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/hdl/design_BRAM_C_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+Exporting to file C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/hw_handoff/design_BRAM_C.hwh
+Generated Block Design Tcl file C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/hw_handoff/design_BRAM_C_bd.tcl
+Generated Hardware Definition File C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_C/synth/design_BRAM_C.hwdef
+INFO: [BD 41-1662] The design 'design_BRAM_D.bd' is already validated. Therefore parameter propagation will not be re-run.
+WARNING: [BD 41-2180] Resetting the memory initialization file of </blk_mem_gen_0> to default.
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/synth/design_BRAM_D.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/sim/design_BRAM_D.vhd
+VHDL Output written to : C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/hdl/design_BRAM_D_wrapper.vhd
+INFO: [BD 41-1029] Generation completed for the IP Integrator block blk_mem_gen_0 .
+Exporting to file C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/hw_handoff/design_BRAM_D.hwh
+Generated Block Design Tcl file C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/hw_handoff/design_BRAM_D_bd.tcl
+Generated Hardware Definition File C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_D/synth/design_BRAM_D.hwdef
+[Sat May  2 11:48:59 2020] Launched design_DIV_floating_point_0_0_synth_1, design_MAC_floating_point_0_0_synth_1, design_CTRL_blk_mem_gen_0_0_synth_1, design_BRAM_A_blk_mem_gen_0_0_synth_1, design_BRAM_D_blk_mem_gen_0_0_synth_1, design_BRAM_C_blk_mem_gen_0_0_synth_1, design_BRAM_B_blk_mem_gen_0_0_synth_1...
+Run output will be captured here:
+design_DIV_floating_point_0_0_synth_1: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_DIV_floating_point_0_0_synth_1/runme.log
+design_MAC_floating_point_0_0_synth_1: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_MAC_floating_point_0_0_synth_1/runme.log
+design_CTRL_blk_mem_gen_0_0_synth_1: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_CTRL_blk_mem_gen_0_0_synth_1/runme.log
+design_BRAM_A_blk_mem_gen_0_0_synth_1: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_BRAM_A_blk_mem_gen_0_0_synth_1/runme.log
+design_BRAM_D_blk_mem_gen_0_0_synth_1: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_BRAM_D_blk_mem_gen_0_0_synth_1/runme.log
+design_BRAM_C_blk_mem_gen_0_0_synth_1: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_BRAM_C_blk_mem_gen_0_0_synth_1/runme.log
+design_BRAM_B_blk_mem_gen_0_0_synth_1: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_BRAM_B_blk_mem_gen_0_0_synth_1/runme.log
+[Sat May  2 11:49:00 2020] Launched synth_1...
+Run output will be captured here: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 2382.652 ; gain = 154.383
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+[Sat May  2 11:55:04 2020] Launched synth_1...
+Run output will be captured here: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+[Sat May  2 11:56:05 2020] Launched synth_1...
+Run output will be captured here: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1/runme.log
+launch_simulation
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'C:/Xilinx/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'simTester_verilog' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-100] Fetching design files from 'sources_1'...(this may take a while)...
+INFO: [USF-XSim-101] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj simTester_verilog_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files/bd/design_CTRL/ip/design_CTRL_blk_mem_gen_0_0/sim/design_CTRL_blk_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_CTRL_blk_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files/bd/design_BRAM_A/ip/design_BRAM_A_blk_mem_gen_0_0/sim/design_BRAM_A_blk_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_BRAM_A_blk_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files/bd/design_BRAM_D/ip/design_BRAM_D_blk_mem_gen_0_0/sim/design_BRAM_D_blk_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_BRAM_D_blk_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files/bd/design_BRAM_C/ip/design_BRAM_C_blk_mem_gen_0_0/sim/design_BRAM_C_blk_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_BRAM_C_blk_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files/bd/design_BRAM_B/ip/design_BRAM_B_blk_mem_gen_0_0/sim/design_BRAM_B_blk_mem_gen_0_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module design_BRAM_B_blk_mem_gen_0_0
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sim_1/new/simTester_verilog.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module simTester_verilog
+WARNING: [VRFC 10-2581] 2147483648 as 32-bit signed integer overflows, using -2147483648 instead [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sim_1/new/simTester_verilog.sv:48]
+INFO: [VRFC 10-311] analyzing module mux_4x1
+INFO: [VRFC 10-311] analyzing module mux_2x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+"xvhdl --incr --relax -prj simTester_verilog_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files/bd/design_DIV/ip/design_DIV_floating_point_0_0/sim/design_DIV_floating_point_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_DIV_floating_point_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files/bd/design_MAC/ip/design_MAC_floating_point_0_0/sim/design_MAC_floating_point_0_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_MAC_floating_point_0_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files/bd/design_DIV/sim/design_DIV.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_DIV'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files/bd/design_MAC/sim/design_MAC.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_MAC'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/autoHdlFiles/types.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/hdlFiles/regs.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'myReg'
+INFO: [VRFC 10-3107] analyzing entity 'myRegS'
+INFO: [VRFC 10-3107] analyzing entity 'myReg_single_bit'
+INFO: [VRFC 10-3107] analyzing entity 'myLatch'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/hdlFiles/quadBRAM.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'quadPortBRAM'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/bram_ZYNQ_mux.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bram_ZYNQ_mux'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/bram_ZYNQ_decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'bram_ZYNQ_decoder'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_MAC_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_MAC_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_DIV_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_DIV_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/autoHdlFiles/MUX_AU_IN.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_AU_IN'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/autoHdlFiles/MUX_BRAM_IN.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'MUX_BRAM_IN'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/autoHdlFiles/LUDHardware.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LUDHardware'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/hdlFiles/hardwareTester.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LUDH_Tester'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/hdlFiles/hardwareTesterWrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'LUDH_TEST_WRAPPER'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0_S00_AXI.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'myip_LUdecomposition_v2_v1_0_S00_AXI'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/new/myip_LUdecomposition_v2_v1_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'myip_LUdecomposition_v2_v1_0'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files/bd/design_CTRL/sim/design_CTRL.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_CTRL'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_CTRL_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_CTRL_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files/bd/design_BRAM_A/sim/design_BRAM_A.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_BRAM_A'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files/bd/design_BRAM_B/sim/design_BRAM_B.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_BRAM_B'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files/bd/design_BRAM_C/sim/design_BRAM_C.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_BRAM_C'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.ip_user_files/bd/design_BRAM_D/sim/design_BRAM_D.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_BRAM_D'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_A_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_BRAM_A_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_B_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_BRAM_B_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_C_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_BRAM_C_wrapper'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_BRAM_D_wrapper.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'design_BRAM_D_wrapper'
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 16c1ae1ce343424d95aa412287c18abf --incr --debug typical --relax --mt 2 -L xbip_utils_v3_0_9 -L axi_utils_v2_0_5 -L xbip_pipe_v3_0_5 -L xbip_dsp48_wrapper_v3_0_4 -L xbip_dsp48_addsub_v3_0_5 -L xbip_dsp48_multadd_v3_0_5 -L xbip_bram18k_v3_0_5 -L mult_gen_v12_0_14 -L floating_point_v7_1_7 -L xil_defaultlib -L blk_mem_gen_v8_4_2 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot simTester_verilog_behav xil_defaultlib.simTester_verilog xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-664] expression has 14 elements ; expected 12 [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_CTRL_wrapper.vhd:28]
+ERROR: [VRFC 10-664] expression has 80 elements ; expected 357 [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_CTRL_wrapper.vhd:30]
+ERROR: [VRFC 10-664] expression has 80 elements ; expected 357 [C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/imports/hdl/design_CTRL_wrapper.vhd:31]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim/elaborate.log'
+ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_3_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.sim/sim_1/behav/xsim/elaborate.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 2428.668 ; gain = 0.000
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat May  2 13:04:59 2020...

@@ -1,0 +1,202 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:38:27 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 7952
+License: Customer
+
+Current time: 	Tue Jun 30 20:58:45 IST 2020
+Time zone: 	India Standard Time (Asia/Calcutta)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 6
+
+Screen size: 1440x900
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 38 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4
+Java executable location: 	C:/Xilinx/Vivado/2018.3/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	anuragchoudhury
+User home directory: C:/Users/anuragchoudhury
+User working directory: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_1_ip_project/Hardware/vivadoProjects/project_LUDH
+User country: 	IN
+User language: 	en
+User locale: 	en_IN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.3
+RDI_DATADIR: C:/Xilinx/Vivado/2018.3/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.3/bin
+
+Vivado preferences file location: C:/Users/anuragchoudhury/AppData/Roaming/Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: C:/Users/anuragchoudhury/AppData/Roaming/Xilinx/Vivado/2018.3/
+Vivado layouts directory: C:/Users/anuragchoudhury/AppData/Roaming/Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_1_ip_project/Hardware/vivadoProjects/project_LUDH/vivado.log
+Vivado journal file location: 	C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_1_ip_project/Hardware/vivadoProjects/project_LUDH/vivado.jou
+Engine tmp dir: 	C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_1_ip_project/Hardware/vivadoProjects/project_LUDH/.Xil/Vivado-7952-ANURAGCHOUDAFBF
+
+Xilinx Environment Variables
+----------------------------
+NO_XILINX_DATA_LICENSE: HIDDEN
+XILINX: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: C:/Xilinx/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: C:/Xilinx/Vivado/2018.3
+XILINX_SDK: C:/Xilinx/SDK/2018.3
+XILINX_VIVADO: C:/Xilinx/Vivado/2018.3
+XILINX_VIVADO_HLS: C:/Xilinx/Vivado/2018.3
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 582 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bx (cp):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\New_scheduler_implementation\LUD_v3_1_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.xpr. Version: Vivado v2018.3 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 615 MB. GUI used memory: 41 MB. Current time: 6/30/20, 8:58:48 PM IST
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 96 MB (+97833kb) [00:00:16]
+// [Engine Memory]: 621 MB (+500107kb) [00:00:16]
+// [GUI Memory]: 102 MB (+1627kb) [00:00:18]
+// WARNING: HEventQueue.dispatchEvent() is taking  3634 ms.
+// Tcl Message: open_project C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_1_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.xpr 
+// Tcl Message: INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. Current project path is 'C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_1_ip_project/Hardware/vivadoProjects/project_LUDH' 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_1_ip_project/Hardware/LUD_v3_1_ip'. 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'. 
+// [Engine Memory]: 663 MB (+11131kb) [00:00:19]
+// Tcl Message: open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:09 . Memory (MB): peak = 687.492 ; gain = 101.871 
+// [Engine Memory]: 753 MB (+59727kb) [00:00:20]
+// Project name: project_LUDH; location: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_1_ip_project/Hardware/vivadoProjects/project_LUDH; part: xczu7ev-ffvc1156-2-e
+dismissDialog("Open Project"); // bx (cp)
+// [GUI Memory]: 110 MB (+2947kb) [00:00:22]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 8, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+// [Engine Memory]: 807 MB (+17047kb) [00:00:28]
+// HMemoryUtils.trashcanNow. Engine heap size: 817 MB. GUI used memory: 51 MB. Current time: 6/30/20, 8:59:03 PM IST
+selectMenuItem((HResource) null, "design_DIV.bd"); // af (al, cp)
+// bx (cp):  Open Block Design : addNotify
+// TclEventType: LOAD_FEATURE
+// Tcl Message: open_bd_design {C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_1_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/design_DIV.bd} 
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: LOAD_FEATURE
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// Tcl Message: Adding cell -- xilinx.com:ip:floating_point:7.1 - floating_point_0 Successfully read diagram <design_DIV> from BD file <C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_1_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/design_DIV.bd> 
+// TclEventType: RSB_OPEN_DIAGRAM
+// WARNING: HEventQueue.dispatchEvent() is taking  1817 ms.
+// TclEventType: RSB_CONNECTION_CHANGE
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: RSB_LOCK_CHANGE
+// Tcl Message: open_bd_design: Time (s): cpu = 00:00:10 ; elapsed = 00:00:07 . Memory (MB): peak = 875.004 ; gain = 0.000 
+dismissDialog("Open Block Design"); // bx (cp)
+// PAPropertyPanels.initPanels (floating_point_0) elapsed time: 0.2s
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// O (cp):  Re-customize IP : addNotify
+// [Engine Memory]: 863 MB (+16304kb) [00:00:41]
+// r (cp): Re-customize IP: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1405 ms.
+dismissDialog("Re-customize IP"); // O (cp)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Interface Options", 3); // cT (C, r)
+// HMemoryUtils.trashcanNow. Engine heap size: 870 MB. GUI used memory: 58 MB. Current time: 6/30/20, 8:59:18 PM IST
+dismissDialog("Re-customize IP"); // r (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 8, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+selectMenuItem((HResource) null, "design_MAC.bd"); // af (al, cp)
+// bx (cp):  Open Block Design : addNotify
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_PROPERTY_CHANGE
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: open_bd_design {C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_1_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/design_MAC.bd} 
+// Tcl Message: Adding cell -- xilinx.com:ip:floating_point:7.1 - floating_point_0 Successfully read diagram <design_MAC> from BD file <C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_1_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/design_MAC.bd> 
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+dismissDialog("Open Block Design"); // bx (cp)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// O (cp):  Re-customize IP : addNotify
+// r (cp): Re-customize IP: addNotify
+dismissDialog("Re-customize IP"); // O (cp)
+selectTab(PAResourceTtoZ.XPG_TabbedPane_TABBED_PANE, (HResource) null, "Interface Options", 3); // cT (C, r)
+// HMemoryUtils.trashcanNow. Engine heap size: 890 MB. GUI used memory: 63 MB. Current time: 6/30/20, 8:59:38 PM IST
+// [GUI Memory]: 117 MB (+1900kb) [00:01:12]
+// Elapsed time: 10 seconds
+dismissDialog("Re-customize IP"); // r (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 8, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+selectMenuItem((HResource) null, "design_BRAM_A.bd"); // af (al, cp)
+// bx (cp):  Open Block Design : addNotify
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: open_bd_design {C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_1_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/design_BRAM_A.bd} 
+// Tcl Message: Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0 Successfully read diagram <design_BRAM_A> from BD file <C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_1_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/design_BRAM_A.bd> 
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+dismissDialog("Open Block Design"); // bx (cp)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// O (cp):  Re-customize IP : addNotify
+// Tcl Message: INFO: [Device 21-403] Loading part xczu7ev-ffvc1156-2-e 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,926 MB. GUI used memory: 66 MB. Current time: 6/30/20, 9:00:03 PM IST
+// [GUI Memory]: 126 MB (+2742kb) [00:01:31]
+// [Engine Memory]: 1,926 MB (+1068861kb) [00:01:31]
+// r (cp): Re-customize IP: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  1026 ms.
+dismissDialog("Re-customize IP"); // O (cp)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Summary", 4); // bg (C, r)
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bg (C, r)
+dismissDialog("Re-customize IP"); // r (cp)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, IP Integrator, Open Block Design]", 8, false); // u (Q, cp)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_BLOCK_DESIGN
+selectMenuItem((HResource) null, "design_CTRL.bd"); // af (al, cp)
+// bx (cp):  Open Block Design : addNotify
+// TclEventType: RSB_CHANGE_CURRENT_DIAGRAM
+// TclEventType: RSB_OPEN_DIAGRAM
+// TclEventType: RSB_CONNECTION_CHANGE
+// Tcl Message: open_bd_design {C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_1_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/design_CTRL.bd} 
+// Tcl Message: Adding cell -- xilinx.com:ip:blk_mem_gen:8.4 - blk_mem_gen_0 Successfully read diagram <design_CTRL> from BD file <C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_1_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_CTRL/design_CTRL.bd> 
+// TclEventType: RSB_CONNECTION_CHANGE
+// TclEventType: RSB_LOCK_CHANGE
+dismissDialog("Open Block Design"); // bx (cp)
+// Run Command: PAResourceCommand.PACommandNames_CUSTOMIZE_RSB_BLOC
+// r (cp): Re-customize IP: addNotify
+selectTab(PAResourceEtoH.HACGCTabbedPane_TABBED_PANE, (HResource) null, "Port A Options", 1); // bg (C, r)
+dismissDialog("Re-customize IP"); // r (cp)

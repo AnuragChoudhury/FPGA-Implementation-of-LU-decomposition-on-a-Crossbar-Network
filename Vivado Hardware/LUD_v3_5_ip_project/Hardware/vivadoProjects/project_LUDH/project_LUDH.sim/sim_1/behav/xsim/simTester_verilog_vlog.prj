@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_LUDH.ip_user_files/bd/design_BRAM_A/ip/design_BRAM_A_blk_mem_gen_0_0/sim/design_BRAM_A_blk_mem_gen_0_0.v" \
+"../../../../project_LUDH.ip_user_files/bd/design_CTRL/ip/design_CTRL_blk_mem_gen_0_0/sim/design_CTRL_blk_mem_gen_0_0.v" \
+
+sv xil_defaultlib  \
+"../../../../project_LUDH.srcs/sim_1/new/simTester_verilog.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

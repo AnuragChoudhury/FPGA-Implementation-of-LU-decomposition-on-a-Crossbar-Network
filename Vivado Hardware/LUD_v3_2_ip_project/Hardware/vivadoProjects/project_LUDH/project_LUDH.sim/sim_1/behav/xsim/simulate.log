@@ -1,0 +1,20 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Block Memory Generator module simTester_verilog.uut1.tester.ctrlStorage.design_CTRL_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_A.design_BRAM_A_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_B.design_BRAM_A_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_C.design_BRAM_A_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_D.design_BRAM_A_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_E.design_BRAM_A_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_F.design_BRAM_A_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_G.design_BRAM_A_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Block Memory Generator module simTester_verilog.uut1.LUDH.block_H.design_BRAM_A_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst is using a behavioral model for simulation which will not precisely model memory collision behavior.
+Warning: OPMODE Input Warning : The OPMODE 01100XX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 280 ns  Iteration: 4  Process: /simTester_verilog/uut1/LUDH/MAC_A/design_MAC_i/floating_point_0/U0/i_synth/fma_op/OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/dsp_add/one_dsp/FRAC_ADDSUB/dsp48e1_add/DSP48E1_ADD/DSP/prcs_opmode_drc  File: C:\Xilinx\Vivado\2018.3\data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 01100XX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 280 ns  Iteration: 4  Process: /simTester_verilog/uut1/LUDH/MAC_B/design_MAC_i/floating_point_0/U0/i_synth/fma_op/OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/dsp_add/one_dsp/FRAC_ADDSUB/dsp48e1_add/DSP48E1_ADD/DSP/prcs_opmode_drc  File: C:\Xilinx\Vivado\2018.3\data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 01100XX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 280 ns  Iteration: 4  Process: /simTester_verilog/uut1/LUDH/MAC_C/design_MAC_i/floating_point_0/U0/i_synth/fma_op/OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/dsp_add/one_dsp/FRAC_ADDSUB/dsp48e1_add/DSP48E1_ADD/DSP/prcs_opmode_drc  File: C:\Xilinx\Vivado\2018.3\data/vhdl/src/unisims/primitive/DSP48E1.vhd
+Warning: OPMODE Input Warning : The OPMODE 01100XX with CARRYINSEL  000 to DSP48E1 instance is invalid.
+Time: 280 ns  Iteration: 4  Process: /simTester_verilog/uut1/LUDH/MAC_D/design_MAC_i/floating_point_0/U0/i_synth/fma_op/OP/addsub/add/ALIGN_BLK/FRAC_ADDSUB/dsp_add/one_dsp/FRAC_ADDSUB/dsp48e1_add/DSP48E1_ADD/DSP/prcs_opmode_drc  File: C:\Xilinx\Vivado\2018.3\data/vhdl/src/unisims/primitive/DSP48E1.vhd
+blk_mem_gen_v8_4_2 collision detected at time: 578320000, Instance: simTester_verilog.uut1.LUDH.block_E.design_BRAM_A_i.blk_mem_gen_0.inst.native_mem_module.blk_mem_gen_v8_4_2_inst, A write address: 0, B  read address: 0

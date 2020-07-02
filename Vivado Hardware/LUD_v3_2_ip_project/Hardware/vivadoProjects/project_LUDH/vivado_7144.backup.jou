@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon May  4 20:44:09 2020
+# Process ID: 7144
+# Current directory: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12704 C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\LUD_v3_2_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.xpr
+# Log file: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/vivado.log
+# Journal file: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/LUD_v3_2_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.xpr
+launch_simulation
+source simTester_verilog.tcl
+current_wave_config {Untitled 1}
+add_wave {{/simTester_verilog/uut1/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/inst/\native_mem_module.blk_mem_gen_v8_4_2_inst /memory}} 
+run all
+current_wave_config {Untitled 1}
+add_wave {{/simTester_verilog/uut1/LUDH/block_G/design_BRAM_G_i/blk_mem_gen_0/inst/\native_mem_module.blk_mem_gen_v8_4_2_inst /memory}} 
+relaunch_sim
+run all
+current_wave_config {Untitled 1}
+add_wave {{/simTester_verilog/uut1/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/inst/\native_mem_module.blk_mem_gen_v8_4_2_inst /memory[0]}} {{/simTester_verilog/uut1/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/inst/\native_mem_module.blk_mem_gen_v8_4_2_inst /memory[1]}} {{/simTester_verilog/uut1/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/inst/\native_mem_module.blk_mem_gen_v8_4_2_inst /memory[2]}} {{/simTester_verilog/uut1/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/inst/\native_mem_module.blk_mem_gen_v8_4_2_inst /memory[3]}} {{/simTester_verilog/uut1/tester/ctrlStorage/design_CTRL_i/blk_mem_gen_0/inst/\native_mem_module.blk_mem_gen_v8_4_2_inst /memory[4]}} 
+run all
+current_wave_config {Untitled 1}
+add_wave {{/simTester_verilog/uut1/LUDH/block_G/design_BRAM_G_i/blk_mem_gen_0/inst/\native_mem_module.blk_mem_gen_v8_4_2_inst /memory}} 
+relaunch_sim
+run all
+close_sim

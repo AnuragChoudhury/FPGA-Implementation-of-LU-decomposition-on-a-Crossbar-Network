@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Tue Jun 30 23:25:34 2020
+# Process ID: 11284
+# Current directory: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1488 C:\Users\anuragchoudhury\Desktop\local_documents\Vivado\New_scheduler_implementation\LUD_v3_4_ip_project\Hardware\vivadoProjects\project_LUDH\project_LUDH.xpr
+# Log file: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/vivado.log
+# Journal file: C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.xpr
+open_bd_design {C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_DIV/design_DIV.bd}
+open_bd_design {C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_MAC/design_MAC.bd}
+open_bd_design {C:/Users/anuragchoudhury/Desktop/local_documents/Vivado/New_scheduler_implementation/LUD_v3_4_ip_project/Hardware/vivadoProjects/project_LUDH/project_LUDH.srcs/sources_1/bd/design_BRAM_A/design_BRAM_A.bd}
+current_bd_design [get_bd_designs design_DIV]
+close_bd_design [get_bd_designs design_DIV]
+current_bd_design [get_bd_designs design_MAC]
+close_bd_design [get_bd_designs design_MAC]
+close_bd_design [get_bd_designs design_BRAM_A]
+launch_simulation
+source simTester_verilog.tcl
+run all
+close_sim

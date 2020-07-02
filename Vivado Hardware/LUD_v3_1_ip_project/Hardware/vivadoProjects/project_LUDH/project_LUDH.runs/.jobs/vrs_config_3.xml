@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="design_BRAM_D_blk_mem_gen_0_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_BRAM_D_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_BRAM_C_blk_mem_gen_0_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_BRAM_C_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_BRAM_A_blk_mem_gen_0_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_BRAM_A_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_BRAM_B_blk_mem_gen_0_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_BRAM_B_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_xbar_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_axi_gpio_3_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_axi_gpio_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="design_CTRL_blk_mem_gen_0_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/design_CTRL_blk_mem_gen_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_axi_gpio_9_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_axi_gpio_9_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_axi_gpio_10_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_axi_gpio_10_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_axi_gpio_11_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_axi_gpio_11_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_axi_gpio_14_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_axi_gpio_14_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_axi_gpio_16_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_axi_gpio_16_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_axi_gpio_17_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_axi_gpio_17_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_axi_gpio_18_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_axi_gpio_18_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_axi_gpio_19_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_axi_gpio_19_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_axi_gpio_20_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_axi_gpio_20_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_axi_gpio_21_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_axi_gpio_21_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_axi_gpio_22_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_axi_gpio_22_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_axi_gpio_23_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_axi_gpio_23_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_axi_gpio_24_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_axi_gpio_24_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_axi_gpio_25_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_axi_gpio_25_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_axi_gpio_26_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_axi_gpio_26_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_axi_gpio_27_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_axi_gpio_27_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_tier2_xbar_0_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_tier2_xbar_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_tier2_xbar_1_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_tier2_xbar_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_tier2_xbar_2_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_tier2_xbar_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_tier2_xbar_3_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_tier2_xbar_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_tier2_xbar_4_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_tier2_xbar_4_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_processing_system_auto_pc_0_synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/ZYNQ_processing_system_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/anuragchoudhury/fpga_yogesh_25_50_fpga_dcop_01_mod/Hardware/vivadoProjects/project_LUDH/project_LUDH.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="design_BRAM_D_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="design_BRAM_C_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="design_BRAM_A_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="design_BRAM_B_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_xbar_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_axi_gpio_3_0_synth_1"/>
+		<Parent Id="design_CTRL_blk_mem_gen_0_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_axi_gpio_9_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_axi_gpio_10_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_axi_gpio_11_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_axi_gpio_14_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_axi_gpio_16_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_axi_gpio_17_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_axi_gpio_18_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_axi_gpio_19_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_axi_gpio_20_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_axi_gpio_21_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_axi_gpio_22_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_axi_gpio_23_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_axi_gpio_24_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_axi_gpio_25_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_axi_gpio_26_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_axi_gpio_27_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_tier2_xbar_0_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_tier2_xbar_1_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_tier2_xbar_2_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_tier2_xbar_3_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_tier2_xbar_4_0_synth_1"/>
+		<Parent Id="ZYNQ_processing_system_auto_pc_0_synth_1"/>
+	</Run>
+</Runs>
+
