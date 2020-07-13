@@ -8,3 +8,6 @@ Hence I have commented out the 2 pre-processing steps in the Makefile project i.
 If you want to work on your own matrix, you have to put the .mat file in scheduler/test folder of the Makefile project and do the pre-processing.
 
 For some matrices, the scheduler can take a long time. To have a status report, you can uncomment the "cout" in the function "schedulingStatusCheck" present in file scheduler/cppFiles/Schedule.cpp(in case of Makefile project) and LUD/src/cppFiles/Schedule.cpp(in case of Eclipse project)
+
+In the "Additional Files" folder I have provided the synchronous and asynchronous quad port BRAM wrappers.
+I have also provided the c code that I have used to compare the results of HDL simulation with known correct results.
